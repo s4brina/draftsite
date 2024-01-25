@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Nayzak Documentation - Swiper</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/favicon.ico" rel="shortcut icon">
+<!-- Nayzak Theme CSS -->
+<link href="../assets/plugins/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="../assets/css/styles.min.css" rel="stylesheet" type="text/css" media="all">
+<!-- Nayzak Documentation CSS -->
+<link href="assets/vendor/prism/prism.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/css/docs.css" rel="stylesheet" type="text/css" media="all">
+<link href="../assets/css/reset.min.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+
+<!-- Nayzak Documentation -->
+<div class="nayzak-documentation">
+
+  <!-- Nayzak Documentation Header -->
+  <header class="doc-header bg-white px-3 px-md-4 shadow-sm position-fixed">
+    <nav class="navbar navbar-expand-lg has-header-inner py-0">
+      <a class="navbar-brand" href="index.html">
+        <picture>
+          <source media="(min-width:767px)" srcset="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/dark-brand.svg">
+          <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/dark-toggle-brand.svg" alt="Nayzak">
+        </picture>
+      </a>
+      <div class="text-end d-block d-xl-none order-md-2 ms-auto">
+        <a href="javascript:void(0);" class="aside-toggle">
+          <img src="assets/img/hamburger@20.svg" class="menu-icon" alt="Menu">        
+          <img src="assets/img/close@20.svg" class="menu-close" alt="Menu Close">
+        </a>
+      </div>
+      <ul class="nav nav-classic nav-sm border-0 nav-docs-space ms-auto">
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3 active" href="index.html">
+            <span class="d-none d-sm-block">Documentation</span>
+            <span class="d-sm-none">Docs</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3" href="snippets/index.html">Snippets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3" target="_blank" href="../landing1.html">Templates</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Container Fluid, Main Docs -->
+  <div class="container-fluid main-docs">
+    <div class="row justify-content-lg-end">
+
+      <!-- Nayzak Documentation Aside -->
+      <nav class="col-lg-3 col-xl-2 navbar-expand-lg ms-2 px-0 nayzak-sidebar">
+        <div class="collapse navbar-collapse show" id="sidebar-nav">
+          <div id="sidebarNav" class="sidebar-scrollbar sidebar-sticky ps-2 ps-md-0 pe-2 accordion" data-simplebar>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#getting-started-collapse" role="button" aria-expanded="false">Getting started</a>
+            <ul class="collapse mb-0" id="getting-started-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="index.html">Introduction</a></li>
+              <li><a href="contents.html">Contents</a></li>
+              <li><a href="browsers-devices.html">Browsers &amp; devices</a></li>
+              <li><a href="javascript.html">JavaScript</a></li>
+              <li><a href="build-tools.html">Build tools</a></li>
+              <li><a href="webpack.html">Webpack</a></li>
+              <li><a href="accessibility.html">Accessibility</a></li>
+              <li><a href="rfs.html">RFS</a></li>
+              <li><a href="rtl.html">RTL</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#customize-collapse" role="button" aria-expanded="false">Customize</a>
+            <ul class="collapse mb-0" id="customize-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="options.html">Options</a></li>
+              <li><a href="colors.html">Color</a></li>
+              <li><a href="customize-components.html">Components</a></li>
+              <li><a href="css-variables.html">CSS variables</a></li>
+              <li><a href="optimize.html">Optimize</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#layout-collapse" role="button" aria-expanded="true">Layout</a>
+            <ul class="collapse mb-0" id="layout-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="breakpoints.html">Breakpoints</a></li>
+              <li><a href="container.html">Container</a></li>
+              <li><a href="grid.html">Grid</a></li>
+              <li><a href="columns.html">Columns</a></li>
+              <li><a href="gutters.html">Gutters</a></li>
+              <li><a href="utilities.html">Utilities</a></li>
+              <li><a href="z-index.html">Z-index</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#content-collapse" role="button" aria-expanded="false">Content</a>
+            <ul class="collapse mb-0" id="content-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="images.html">Images</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="figures.html">Figures</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#forms-collapse" role="button" aria-expanded="false">Forms</a>
+            <ul class="collapse mb-0" id="forms-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="forms-overview.html">Form Overview</a></li>
+              <li><a href="form-control.html">Form control</a></li>
+              <li><a href="select.html">Select</a></li>
+              <li><a href="checks-radios.html">Checks &amp; radios</a></li>
+              <li><a href="range.html">Range</a></li>
+              <li><a href="input-group.html">Input group</a></li>
+              <li><a href="floating-labels.html">Floating labels</a></li>
+              <li><a href="form-layout.html">Layout</a></li>
+              <li><a href="validation.html">Validation</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#components-collapse" role="button" aria-expanded="false">Components</a>
+            <ul class="collapse mb-0" id="components-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="accordion.html">Accordion</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="breadcrumb.html">Breadcrumb</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="button-group.html">Button Group</a></li>
+              <li><a href="cards.html">Cards</a></li>
+              <li><a href="carousel.html">Carousel</a></li>
+              <li><a href="close-button.html">Close Button</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="dropdowns.html">Dropdowns</a></li>
+              <li><a href="list-group.html">List group</a></li>
+              <li><a href="modal.html">Modal</a></li>
+              <li><a href="navs-tabs.html">Navs &amp; Tabs</a></li>
+              <li><a href="navs.html">Navs</a></li>
+              <li><a href="offcanvas.html">Offcanvas</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="popovers.html">Popovers</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scrollspy.html">Scrollspy</a></li>
+              <li><a href="spinners.html">Spinners</a></li>
+              <li><a href="toasts.html">Toasts</a></li>
+              <li><a href="tooltips.html">Tooltips</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#helpers-collapse" role="button" aria-expanded="false">Helpers</a>
+            <ul class="collapse mb-0" id="helpers-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="clearfix.html">Clearfix</a></li>
+              <li><a href="colored-links.html">Colored links</a></li>
+              <li><a href="ratio.html">Ratio</a></li>
+              <li><a href="position.html">Position</a></li>
+              <li><a href="visually-hidden.html">Visually Hidden</a></li>
+              <li><a href="stretched-link.html">Stretched link</a></li>
+              <li><a href="text-truncation.html">Text truncation</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#utilities-collapse" role="button" aria-expanded="false">Utilities</a>
+            <ul class="collapse mb-0" id="utilities-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="api.html">API</a></li>
+              <li><a href="background.html">Background</a></li>
+              <li><a href="borders.html">Borders</a></li>
+              <li><a href="display.html">Display</a></li>
+              <li><a href="flex.html">Flex</a></li>
+              <li><a href="float.html">Float</a></li>
+              <li><a href="interactions.html">Interactions</a></li>
+              <li><a href="overflow.html">Overflow</a></li>
+              <li><a href="utilitie-position.html">Position</a></li>
+              <li><a href="shadows.html">Shadows</a></li>
+              <li><a href="sizing.html">Sizing</a></li>
+              <li><a href="spacings.html">Spacings</a></li>
+              <li><a href="text.html">Text</a></li>
+              <li><a href="vertical-align.html">Vertical align</a></li>
+              <li><a href="visibility.html">Visibility</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#extend-collapse" role="button" aria-expanded="false">Extend</a>
+            <ul class="collapse mb-0" id="extend-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="approach.html">Approach</a></li>
+              <li><a href="bootstrap-icons.html">Bootstrap Icons</a></li>
+              <li><a href="tabler-icons.html">Tabler Icons</a></li>
+            </ul>
+            <a class="sidebar-heading mb-0" data-bs-toggle="collapse" href="#plugins-collapse" role="button" aria-expanded="true">Plugins</a>
+            <ul class="collapse show mb-0" id="plugins-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="swiper.html" class="active">Swiper</a></li>
+              <li><a href="aos.html">AOS</a></li>
+              <li><a href="hover-master.html">Hover Master</a></li>
+              <li><a href="mapbox.html">Mapbox</a></li>
+              <li><a href="intltelinput.html">intlTelInput</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#more-collapse" role="button" aria-expanded="false">More</a>
+            <ul class="collapse mb-0" id="more-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="credits.html">Credits</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Nayzak Documentation Content -->
+      <div class="col-xl-10">
+        <div class="p-0 p-md-4">
+          <div class="content-divider">
+            <h1 class="bd-title h3">Getting Started With Swiper</h1>
+            <p class="fs-5">There are few options on how to include/import Swiper into your project:</p>
+            <a class="btn-link link-dark link-sm" target="_blank" href="https://swiperjs.com">Documentation for Swiper</a>
+          </div>
+          <div class="content-divider">
+            <h5 class="mb-3">How to use?</h5>
+            <p class="fs-5">Copy-paste the following <code>&lt;link&gt;</code> near the end of your pages under <em><u>Nayzak Plugins CSS</u></em> to enable it.</p>
+            <div class="highlight">
+              <pre class="rounded">
+                <code class="language-html" data-lang="html">
+                  &lt;link href="assets/plugins/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all"&gt;
+                </code>
+              </pre>
+            </div>
+            <p class="fs-5">Copy-paste the following <code>&lt;script&gt;</code> near the end of your pages under <em><u>Nayzak Javascript Plugins</u></em> to enable it.</p>
+            <div class="highlight">
+              <pre class="rounded">
+                <code class="language-html" data-lang="html">
+                  &lt;script src="assets/plugins/swiper/swiper-bundle.min.js"&gt;&lt;/script&gt;
+                </code>
+              </pre>
+            </div>
+            <h5 class="mt-4">Add Swiper HTML Layout</h5>
+            <p class="fs-5">Now, we need to add basic Swiper layout to our app:</p>
+            <div class="highlight">
+              <pre class="rounded">
+                <code class="language-html" data-lang="html">
+                  &lt;!-- Slider main container --&gt;
+                  &lt;div class="swiper"&gt;
+                    &lt;!-- Additional required wrapper --&gt;
+                    &lt;div class="swiper-wrapper"&gt;
+                      &lt;!-- Slides --&gt;
+                      &lt;div class="swiper-slide"&gt;Slide 1&lt;/div&gt;
+                      &lt;div class="swiper-slide"&gt;Slide 2&lt;/div&gt;
+                      &lt;div class="swiper-slide"&gt;Slide 3&lt;/div&gt;
+                      ...
+                    &lt;/div&gt;
+                    &lt;!-- If we need pagination --&gt;
+                    &lt;div class="swiper-pagination"&gt;&lt;/div&gt;
+                    &lt;!-- If we need navigation buttons --&gt;
+                    &lt;div class="swiper-button-prev"&gt;&lt;/div&gt;
+                    &lt;div class="swiper-button-next"&gt;&lt;/div&gt;
+                    &lt;!-- If we need scrollbar --&gt;
+                    &lt;div class="swiper-scrollbar"&gt;&lt;/div&gt;
+                  &lt;/div&gt;
+                </code>
+              </pre>
+            </div>
+            <h5 class="mt-4">Initialize Swiper</h5>
+            <p class="fs-5">Finally, we need to initialize Swiper in JS:</p>
+            <div class="highlight">
+              <pre class="rounded">
+                <code class="language-markup" data-lang="html">
+                  // Swiper Slider Script
+                  &lt;script&gt;
+                    var sliderSelector = '.swiper', defaultOptions = {
+                      breakpointsInverse: true,
+                      observer: true
+                    };
+                    var nSlider = document.querySelectorAll(sliderSelector);
+                    [].forEach.call(nSlider, function(slider, index, arr) {
+                      var data = slider.getAttribute('data-swiper') || {};
+                      if (data) {
+                        var dataOptions = JSON.parse(data);
+                      }
+                      slider.options = Object.assign({}, defaultOptions, dataOptions);
+                      var swiper = new Swiper(slider, slider.options);
+                      console.log(slider.options.autoplay)
+                      if (typeof slider.options.autoplay !== 'undefined' && slider.options.autoplay !== false) {
+                        slider.addEventListener('mouseenter', function(e) {
+                          swiper.autoplay.stop();
+                          console.log('stop')
+                        });
+                        slider.addEventListener('mouseleave', function(e) {
+                          swiper.autoplay.start();
+                          console.log('start')
+                        });
+                      }
+                    });
+                  &lt;/script&gt;
+
+                  //Swiper Destroyed Slider Script
+                  &lt;script&gt;
+                    const breakpoint = window.matchMedia('(min-width:768px)');
+                    let mySwiper;
+                    const breakpointChecker = function() {
+                      if(breakpoint.matches === true) {
+                        if(mySwiper !== undefined) mySwiper.destroy(true, true);
+                        return;
+                      }
+                      else if (breakpoint.matches === false) {
+                        return enableSwiper();
+                      }
+                    };
+                    const enableSwiper = function() {
+                    var sliderSelector = '[data-distorted]', defaultOptions = {
+                      breakpointsInverse: true,
+                      observer: true
+                    };
+                    var nSlider = document.querySelectorAll(sliderSelector);
+                    [].forEach.call(nSlider, function(slider, index, arr) {
+                      var data = slider.getAttribute('data-swiper') || {};
+                      if (data) {
+                        var dataOptions = JSON.parse(data);
+                      }
+                      slider.options = Object.assign({}, defaultOptions, dataOptions);
+                      var swiper = new Swiper(slider, slider.options);
+                      console.log(slider.options.autoplay)
+                      if (typeof slider.options.autoplay !== 'undefined' && slider.options.autoplay !== false) {
+                        slider.addEventListener('mouseenter', function(e) {
+                          swiper.autoplay.stop();
+                          console.log('stop')
+                        });
+                        slider.addEventListener('mouseleave', function(e) {
+                          swiper.autoplay.start();
+                          console.log('start')
+                        });
+                      }
+                    });
+                    };
+                    breakpoint.addListener(breakpointChecker);
+                    breakpointChecker();
+                  &lt;/script&gt;
+                </code>
+              </pre>
+            </div>
+          </div>
+          <h2 class="h5">Testimonial Card</h2>
+          <div class="bd-example">
+            <div class="card testimonial-card bg-white shadow border-0 rounded-24 p-lg-5" data-aos="fade-up" data-aos-delay="50"
+                  data-aos-duration="800">
+                  <div class="card-body text-dark p-3">
+                    <div class="px-2 px-md-3 p-3">
+                      <div class="row">
+                        <div class="col-md-9 col-xl-10 mx-auto">
+                          <div class="swiper"
+                            data-swiper='{"initialSlide": 0, "slidesPerView": 1, "centeredSlides": false, "autoplay": {"delay": 2000}, "speed": 1000, "spaceBetween": 30, "pagination": {"el": ".swiper-pagination", "clickable": true},"navigation": {"nextEl": ".swiper-button-next","prevEl": ".swiper-button-prev", "clickable": true} }'>
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <h6 class="mb-3">Testomonials</h6>
+                                <h5 class="mb-md-0">“With Nayzak, everyone in my team works towards the samegoal. This enabled our teams to ship new ideas and feel more capable.”</h5>
+                                <div class="d-flex align-items-center pt-5">
+                                  <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar1.png" class="rounded-circle" width="80" height="80" alt="Nayzak">
+                                  <div class="ps-3">
+                                    <h6 class="mb-1">Mike Portnoy</h6>
+                                    <span class="fs-5">Head of Design — Nike</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <h6 class="mb-3">Testomonials</h6>
+                                <h5 class="mb-md-0">“With Nayzak, everyone in my team works towards the samegoal. This enabled our teams to ship new ideas and feel more capable.”</h5>
+                                <div class="d-flex align-items-center pt-5">
+                                  <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar1.png" class="rounded-circle" width="80" height="80" alt="Nayzak">
+                                  <div class="ps-3">
+                                    <h6 class="mb-1">Mike Portnoy</h6>
+                                    <span class="fs-5">Head of Design — Nike</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <h6 class="mb-3">Testomonials</h6>
+                                <h5 class="mb-md-0">“With Nayzak, everyone in my team works towards the samegoal. This enabled our teams to ship new ideas and feel more capable.”</h5>
+                                <div class="d-flex align-items-center pt-5">
+                                  <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar1.png" class="rounded-circle" width="80" height="80" alt="Nayzak">
+                                  <div class="ps-3">
+                                    <h6 class="mb-1">Mike Portnoy</h6>
+                                    <span class="fs-5">Head of Design — Nike</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-pagination d-block d-md-none mt-4 pt-2"></div>
+                          </div>
+                          <div class="swiper-navigation d-md-block d-none">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;div class="card testimonial-card bg-white shadow border-0 rounded-24 p-lg-5" data-aos="fade-up" data-aos-delay="50"
+                  data-aos-duration="800"&gt;
+                  &lt;div class="card-body text-dark p-3"&gt;
+                    &lt;div class="px-2 px-md-3 p-3"&gt;
+                      &lt;div class="row"&gt;
+                        &lt;div class="col-md-9 col-xl-10 mx-auto"&gt;
+                          &lt;div class="swiper"
+                            data-swiper='{"initialSlide": 0, "slidesPerView": 1, "centeredSlides": false, "autoplay": {"delay": 2000}, "speed": 1000, "spaceBetween": 30, "pagination": {"el": ".swiper-pagination", "clickable": true},"navigation": {"nextEl": ".swiper-button-next","prevEl": ".swiper-button-prev", "clickable": true} }'&gt;
+                            &lt;div class="swiper-wrapper"&gt;
+                              &lt;div class="swiper-slide"&gt;
+                                &lt;h6 class="mb-3"&gt;Testomonials&lt;/h6&gt;
+                                &lt;h5 class="mb-md-0"&gt;“With Nayzak, everyone in my team works towards the samegoal. This enabled our teams to ship new ideas and feel more capable.”&lt;/h5&gt;
+                                &lt;div class="d-flex align-items-center pt-5"&gt;
+                                  &lt;img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar1.png" class="rounded-circle" width="80" height="80" alt="Nayzak"&gt;
+                                  &lt;div class="ps-3"&gt;
+                                    &lt;h6 class="mb-1"&gt;Mike Portnoy&lt;/h6&gt;
+                                    &lt;span class="fs-5"&gt;Head of Design — Nike&lt;/span&gt;
+                                  &lt;/div&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                              &lt;div class="swiper-slide"&gt;
+                                &lt;h6 class="mb-3"&gt;Testomonials&lt;/h6&gt;
+                                &lt;h5 class="mb-md-0"&gt;“With Nayzak, everyone in my team works towards the samegoal. This enabled our teams to ship new ideas and feel more capable.”&lt;/h5&gt;
+                                &lt;div class="d-flex align-items-center pt-5"&gt;
+                                  &lt;img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar1.png" class="rounded-circle" width="80" height="80" alt="Nayzak"&gt;
+                                  &lt;div class="ps-3"&gt;
+                                    &lt;h6 class="mb-1"&gt;Mike Portnoy&lt;/h6&gt;
+                                    &lt;span class="fs-5"&gt;Head of Design — Nike&lt;/span&gt;
+                                  &lt;/div&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                              &lt;div class="swiper-slide"&gt;
+                                &lt;h6 class="mb-3"&gt;Testomonials&lt;/h6&gt;
+                                &lt;h5 class="mb-md-0"&gt;“With Nayzak, everyone in my team works towards the samegoal. This enabled our teams to ship new ideas and feel more capable.”&lt;/h5&gt;
+                                &lt;div class="d-flex align-items-center pt-5"&gt;
+                                  &lt;img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar1.png" class="rounded-circle" width="80" height="80" alt="Nayzak"&gt;
+                                  &lt;div class="ps-3"&gt;
+                                    &lt;h6 class="mb-1"&gt;Mike Portnoy&lt;/h6&gt;
+                                    &lt;span class="fs-5"&gt;Head of Design — Nike&lt;/span&gt;
+                                  &lt;/div&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="swiper-pagination d-block d-md-none mt-4 pt-2"&gt;&lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;div class="swiper-navigation d-md-block d-none"&gt;
+                            &lt;div class="swiper-button-prev"&gt;&lt;/div&gt;
+                            &lt;div class="swiper-button-next"&gt;&lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5">Primary Testimonial Card</h2>
+          <div class="bd-example">
+            <div class="card testimonial-card bg-primary-70 shadow border-0 rounded-24 p-lg-5">
+              <div class="card-body text-white p-3">
+                <div class="px-2 px-md-3 p-3">
+                  <div class="row">
+                    <div class="col-md-9 col-xl-10 mx-auto">
+                      <div class="swiper"
+                        data-swiper='{"initialSlide": 0, "slidesPerView": 1, "centeredSlides": false, "autoplay": {"delay": 2000}, "speed": 1000, "spaceBetween": 30, "pagination": {"el": ".swiper-pagination", "clickable": true},"navigation": {"nextEl": ".swiper-button-next","prevEl": ".swiper-button-prev", "clickable": true} }'>
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <h6 class="mb-3">Testomonials</h6>
+                            <h5 class="mb-0">“With Nayzak, everyone in my team works towards the samegoal. This enabled our teams to ship new ideas and feel more capable.”</h5>
+                            <div class="d-flex align-items-center pt-5">
+                              <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar1.png" class="rounded-circle" width="80" height="80" alt="Nayzak">
+                              <div class="ps-3">
+                                <h6 class="mb-1">Mike Portnoy</h6>
+                                <span class="fs-5">Head of Design — Nike</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <h6 class="mb-3">Testomonials</h6>
+                            <h5 class="mb-0">“With Nayzak, everyone in my team works towards the samegoal. This enabled our teams to ship new ideas and feel more capable.”</h5>
+                            <div class="d-flex align-items-center pt-5">
+                              <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar1.png" class="rounded-circle" width="80" height="80" alt="Nayzak">
+                              <div class="ps-3">
+                                <h6 class="mb-1">Mike Portnoy</h6>
+                                <span class="fs-5">Head of Design — Nike</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <h6 class="mb-3">Testomonials</h6>
+                            <h5 class="mb-0">“With Nayzak, everyone in my team works towards the samegoal. This enabled our teams to ship new ideas and feel more capable.”</h5>
+                            <div class="d-flex align-items-center pt-5">
+                              <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar1.png" class="rounded-circle" width="80" height="80" alt="Nayzak">
+                              <div class="ps-3">
+                                <h6 class="mb-1">Mike Portnoy</h6>
+                                <span class="fs-5">Head of Design — Nike</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-pagination d-block d-md-none mt-4 pt-2"></div>
+                      </div>
+                      <div class="swiper-navigation d-md-block d-none">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;div class="card testimonial-card bg-primary-70 shadow border-0 rounded-24 p-lg-5"&gt;
+                  &lt;div class="card-body text-white p-3"&gt;
+                    &lt;div class="px-2 px-md-3 p-3"&gt;
+                      &lt;div class="row"&gt;
+                        &lt;div class="col-md-9 col-xl-10 mx-auto"&gt;
+                          &lt;div class="swiper"
+                            data-swiper='{"initialSlide": 0, "slidesPerView": 1, "centeredSlides": false, "autoplay": {"delay": 2000}, "speed": 1000, "spaceBetween": 30, "pagination": {"el": ".swiper-pagination", "clickable": true},"navigation": {"nextEl": ".swiper-button-next","prevEl": ".swiper-button-prev", "clickable": true} }'&gt;
+                            &lt;div class="swiper-wrapper"&gt;
+                              &lt;div class="swiper-slide"&gt;
+                                &lt;h6 class="mb-3"&gt;Testomonials&lt;/h6&gt;
+                                &lt;h5 class="mb-0"&gt;“With Nayzak, everyone in my team works towards the samegoal. This enabled our teams to ship new ideas and feel more capable.”&lt;/h5&gt;
+                                &lt;div class="d-flex align-items-center pt-5"&gt;
+                                  &lt;img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar1.png" class="rounded-circle" width="80" height="80" alt="Nayzak"&gt;
+                                  &lt;div class="ps-3"&gt;
+                                    &lt;h6 class="mb-1"&gt;Mike Portnoy&lt;/h6&gt;
+                                    &lt;span class="fs-5"&gt;Head of Design — Nike&lt;/span&gt;
+                                  &lt;/div&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                              &lt;div class="swiper-slide"&gt;
+                                &lt;h6 class="mb-3"&gt;Testomonials&lt;/h6&gt;
+                                &lt;h5 class="mb-0"&gt;“With Nayzak, everyone in my team works towards the samegoal. This enabled our teams to ship new ideas and feel more capable.”&lt;/h5&gt;
+                                &lt;div class="d-flex align-items-center pt-5"&gt;
+                                  &lt;img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar1.png" class="rounded-circle" width="80" height="80" alt="Nayzak"&gt;
+                                  &lt;div class="ps-3"&gt;
+                                    &lt;h6 class="mb-1"&gt;Mike Portnoy&lt;/h6&gt;
+                                    &lt;span class="fs-5"&gt;Head of Design — Nike&lt;/span&gt;
+                                  &lt;/div&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                              &lt;div class="swiper-slide"&gt;
+                                &lt;h6 class="mb-3"&gt;Testomonials&lt;/h6&gt;
+                                &lt;h5 class="mb-0"&gt;“With Nayzak, everyone in my team works towards the samegoal. This enabled our teams to ship new ideas and feel more capable.”&lt;/h5&gt;
+                                &lt;div class="d-flex align-items-center pt-5"&gt;
+                                  &lt;img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar1.png" class="rounded-circle" width="80" height="80" alt="Nayzak"&gt;
+                                  &lt;div class="ps-3"&gt;
+                                    &lt;h6 class="mb-1"&gt;Mike Portnoy&lt;/h6&gt;
+                                    &lt;span class="fs-5"&gt;Head of Design — Nike&lt;/span&gt;
+                                  &lt;/div&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="swiper-pagination d-block d-md-none mt-4 pt-2"&gt;&lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;div class="swiper-navigation d-md-block d-none"&gt;
+                            &lt;div class="swiper-button-prev"&gt;&lt;/div&gt;
+                            &lt;div class="swiper-button-next"&gt;&lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5">Dark Testimonial Card</h2>
+          <div class="bd-example">
+            <div class="card bg-brand-2 border-0 rounded-24 p-4 p-md-5 text-white">
+              <div class="card-body px-0 py-2 p-md-2">
+                <div class="swiper"
+                  data-swiper='{"initialSlide": 0, "slidesPerView": 1, "centeredSlides": false, "autoplay": {"delay": 2000}, "speed": 1000, "spaceBetween": 30, "pagination": {"el": ".swiper-pagination", "clickable": true},"navigation": {"nextEl": ".swiper-button-next","prevEl": ".swiper-button-prev", "clickable": true} }'>
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <p class="fw-semibold pb-md-3">“Excepteur sint occaecat cupidat non proident sunt in culpam qui the officia the anim id est enime aliquip ex ea comm cupidat non proident.”</p>
+                      <div class="d-flex align-items-center pt-4 pt-md-5">
+                        <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar2.png" class="rounded-circle" width="60" height="60" alt="Nayzak">
+                        <div class="ps-3">
+                          <h6 class="mb-1">Gabe Oswald</h6>
+                          <span class="fs-5">Lead Designers @Nike</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <p class="fw-semibold pb-md-3">“Excepteur sint occaecat cupidat non proident sunt in culpam qui the officia the anim id est enime aliquip ex ea comm cupidat non proident.”</p>
+                      <div class="d-flex align-items-center pt-4 pt-md-5">
+                        <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar2.png" class="rounded-circle" width="60" height="60" alt="Nayzak">
+                        <div class="ps-3">
+                          <h6 class="mb-1">Gabe Oswald</h6>
+                          <span class="fs-5">Lead Designers @Nike</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <p class="fw-semibold pb-md-3">“Excepteur sint occaecat cupidat non proident sunt in culpam qui the officia the anim id est enime aliquip ex ea comm cupidat non proident.”</p>
+                      <div class="d-flex align-items-center pt-4 pt-md-5">
+                        <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar2.png" class="rounded-circle" width="60" height="60" alt="Nayzak">
+                        <div class="ps-3">
+                          <h6 class="mb-1">Gabe Oswald</h6>
+                          <span class="fs-5">Lead Designers @Nike</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination d-block d-md-none mt-4 pt-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;div class="card bg-brand-2 border-0 rounded-24 p-4 p-md-5 text-white"&gt;
+                  &lt;div class="card-body px-0 py-2 p-md-2"&gt;
+                    &lt;div class="swiper"
+                      data-swiper='{"initialSlide": 0, "slidesPerView": 1, "centeredSlides": false, "autoplay": {"delay": 2000}, "speed": 1000, "spaceBetween": 30, "pagination": {"el": ".swiper-pagination", "clickable": true},"navigation": {"nextEl": ".swiper-button-next","prevEl": ".swiper-button-prev", "clickable": true} }'&gt;
+                      &lt;div class="swiper-wrapper"&gt;
+                        &lt;div class="swiper-slide"&gt;
+                          &lt;p class="fw-semibold pb-md-3"&gt;“Excepteur sint occaecat cupidat non proident sunt in culpam qui the officia the anim id est enime aliquip ex ea comm cupidat non proident.”&lt;/p&gt;
+                          &lt;div class="d-flex align-items-center pt-4 pt-md-5"&gt;
+                            &lt;img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar2.png" class="rounded-circle" width="60" height="60" alt="Nayzak"&gt;
+                            &lt;div class="ps-3"&gt;
+                              &lt;h6 class="mb-1"&gt;Gabe Oswald&lt;/h6&gt;
+                              &lt;span class="fs-5"&gt;Lead Designers @Nike&lt;/span&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="swiper-slide"&gt;
+                          &lt;p class="fw-semibold pb-md-3"&gt;“Excepteur sint occaecat cupidat non proident sunt in culpam qui the officia the anim id est enime aliquip ex ea comm cupidat non proident.”&lt;/p&gt;
+                          &lt;div class="d-flex align-items-center pt-4 pt-md-5"&gt;
+                            &lt;img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar2.png" class="rounded-circle" width="60" height="60" alt="Nayzak"&gt;
+                            &lt;div class="ps-3"&gt;
+                              &lt;h6 class="mb-1"&gt;Gabe Oswald&lt;/h6&gt;
+                              &lt;span class="fs-5"&gt;Lead Designers @Nike&lt;/span&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="swiper-slide"&gt;
+                          &lt;p class="fw-semibold pb-md-3"&gt;“Excepteur sint occaecat cupidat non proident sunt in culpam qui the officia the anim id est enime aliquip ex ea comm cupidat non proident.”&lt;/p&gt;
+                          &lt;div class="d-flex align-items-center pt-4 pt-md-5"&gt;
+                            &lt;img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar2.png" class="rounded-circle" width="60" height="60" alt="Nayzak"&gt;
+                            &lt;div class="ps-3"&gt;
+                              &lt;h6 class="mb-1"&gt;Gabe Oswald&lt;/h6&gt;
+                              &lt;span class="fs-5"&gt;Lead Designers @Nike&lt;/span&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;div class="swiper-pagination d-block d-md-none mt-4 pt-2"&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5">Light Testimonial Card</h2>
+          <div class="bd-example">
+            <div class="card bg-white shadow border-0 rounded-24 p-4 text-secondary">
+              <div class="card-body p-0 p-md-2">
+                <div class="swiper"
+                  data-swiper='{"initialSlide": 0, "slidesPerView": 1, "centeredSlides": false, "autoplay": {"delay": 2000}, "speed": 1000, "spaceBetween": 30, "pagination": {"el": ".swiper-pagination", "clickable": true},"navigation": {"nextEl": ".swiper-button-next","prevEl": ".swiper-button-prev", "clickable": true} }'>
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="text-end pb-2"><img class="mb-1" src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/quote.svg" width="27" height="24" alt="Nayzak"></div>
+                      <div class="d-flex align-items-center pb-4 pb-md-4">
+                        <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar3.png" class="rounded-circle" width="60" height="60" alt="Nayzak">
+                        <div class="ps-3">
+                          <h6 class="text-dark mb-1">Gabe Oswald</h6>
+                          <span class="fs-5">Lead Designers @Nike</span>
+                        </div>
+                      </div>
+                      <p class="mb-0">Excepteur sint occaecat cupidat non proident sunt in culpam qui the officia the anim id.</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="text-end pb-2"><img class="pb-1" src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/quote.svg" width="27" height="23" alt="Nayzak"></div>
+                      <div class="d-flex align-items-center pb-4 pb-md-4">
+                        <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar3.png" class="rounded-circle" width="60" height="60" alt="Nayzak">
+                        <div class="ps-3">
+                          <h6 class="text-dark mb-1">Gabe Oswald</h6>
+                          <span class="fs-5">Lead Designers @Nike</span>
+                        </div>
+                      </div>
+                      <p class="mb-0">Excepteur sint occaecat cupidat non proident sunt in culpam qui the officia the anim id.</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="text-end pb-2"><img class="pb-1" src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/quote.svg" width="27" height="23" alt="Nayzak"></div>
+                      <div class="d-flex align-items-center pb-4 pb-md-4">
+                        <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar3.png" class="rounded-circle" width="60" height="60" alt="Nayzak">
+                        <div class="ps-3">
+                          <h6 class="text-dark mb-1">Gabe Oswald</h6>
+                          <span class="fs-5">Lead Designers @Nike</span>
+                        </div>
+                      </div>
+                      <p class="mb-0">Excepteur sint occaecat cupidat non proident sunt in culpam qui the officia the anim id.</p>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination d-block d-md-none mt-4 pt-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;div class="card bg-white shadow border-0 rounded-24 p-4 text-secondary"&gt;
+                  &lt;div class="card-body p-0 p-md-2"&gt;
+                    &lt;div class="swiper"
+                      data-swiper='{"initialSlide": 0, "slidesPerView": 1, "centeredSlides": false, "autoplay": {"delay": 2000}, "speed": 1000, "spaceBetween": 30, "pagination": {"el": ".swiper-pagination", "clickable": true},"navigation": {"nextEl": ".swiper-button-next","prevEl": ".swiper-button-prev", "clickable": true} }'&gt;
+                      &lt;div class="swiper-wrapper"&gt;
+                        &lt;div class="swiper-slide"&gt;
+                          &lt;div class="text-end pb-2"&gt;&lt;img class="mb-1" src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/quote.svg" width="27" height="24" alt="Nayzak"&gt;&lt;/div&gt;
+                          &lt;div class="d-flex align-items-center pb-4 pb-md-4"&gt;
+                            &lt;img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar3.png" class="rounded-circle" width="60" height="60" alt="Nayzak"&gt;
+                            &lt;div class="ps-3"&gt;
+                              &lt;h6 class="text-dark mb-1"&gt;Gabe Oswald&lt;/h6&gt;
+                              &lt;span class="fs-5"&gt;Lead Designers @Nike&lt;/span&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;p class="mb-0"&gt;Excepteur sint occaecat cupidat non proident sunt in culpam qui the officia the anim id.&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class="swiper-slide"&gt;
+                          &lt;div class="text-end pb-2"&gt;&lt;img class="pb-1" src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/quote.svg" width="27" height="23" alt="Nayzak"&gt;&lt;/div&gt;
+                          &lt;div class="d-flex align-items-center pb-4 pb-md-4"&gt;
+                            &lt;img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar3.png" class="rounded-circle" width="60" height="60" alt="Nayzak"&gt;
+                            &lt;div class="ps-3"&gt;
+                              &lt;h6 class="text-dark mb-1"&gt;Gabe Oswald&lt;/h6&gt;
+                              &lt;span class="fs-5"&gt;Lead Designers @Nike&lt;/span&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;p class="mb-0"&gt;Excepteur sint occaecat cupidat non proident sunt in culpam qui the officia the anim id.&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class="swiper-slide"&gt;
+                          &lt;div class="text-end pb-2"&gt;&lt;img class="pb-1" src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/quote.svg" width="27" height="23" alt="Nayzak"&gt;&lt;/div&gt;
+                          &lt;div class="d-flex align-items-center pb-4 pb-md-4"&gt;
+                            &lt;img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/avatar3.png" class="rounded-circle" width="60" height="60" alt="Nayzak"&gt;
+                            &lt;div class="ps-3"&gt;
+                              &lt;h6 class="text-dark mb-1"&gt;Gabe Oswald&lt;/h6&gt;
+                              &lt;span class="fs-5"&gt;Lead Designers @Nike&lt;/span&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;p class="mb-0"&gt;Excepteur sint occaecat cupidat non proident sunt in culpam qui the officia the anim id.&lt;/p&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;div class="swiper-pagination d-block d-md-none mt-4 pt-2"&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Nayzak Global Compulsory Javascript -->
+<script src="../assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="../assets/plugins/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/plugins/aos/aos.min.js"></script>
+<script src="../assets/plugins/intl-tel-input/intlTelInput.min.js"></script>
+<script src="../assets/plugins/intl-tel-input/utils.js"></script>
+<script src="../assets/plugins/mapbox/mapbox.gl.js"></script>
+<script src="../assets/js/custom.js"></script>
+<!-- Nayzak Documentation Javascript Plugins -->
+<script src="assets/vendor/prism/prism.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>

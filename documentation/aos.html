@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Nayzak Documentation - AOS</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/favicon.ico" rel="shortcut icon">
+<!-- Nayzak Theme CSS -->
+<link href="../assets/plugins/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="../assets/css/styles.min.css" rel="stylesheet" type="text/css" media="all">
+<!-- Nayzak Documentation CSS -->
+<link href="assets/vendor/prism/prism.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/css/docs.css" rel="stylesheet" type="text/css" media="all">
+<link href="../assets/css/reset.min.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+
+<!-- Nayzak Documentation -->
+<div class="nayzak-documentation">
+
+  <!-- Nayzak Documentation Header -->
+  <header class="doc-header bg-white px-3 px-md-4 shadow-sm position-fixed">
+    <nav class="navbar navbar-expand-lg has-header-inner py-0">
+      <a class="navbar-brand" href="index.html">
+        <picture>
+          <source media="(min-width:767px)" srcset="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/dark-brand.svg">
+          <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/dark-toggle-brand.svg" alt="Nayzak">
+        </picture>
+      </a>
+      <div class="text-end d-block d-xl-none order-md-2 ms-auto">
+        <a href="javascript:void(0);" class="aside-toggle">
+          <img src="assets/img/hamburger@20.svg" class="menu-icon" alt="Menu">        
+          <img src="assets/img/close@20.svg" class="menu-close" alt="Menu Close">
+        </a>
+      </div>
+      <ul class="nav nav-classic nav-sm border-0 nav-docs-space ms-auto">
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3 active" href="index.html">
+            <span class="d-none d-sm-block">Documentation</span>
+            <span class="d-sm-none">Docs</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3" href="snippets/index.html">Snippets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3" target="_blank" href="../landing1.html">Templates</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Container Fluid, Main Docs -->
+  <div class="container-fluid main-docs">
+    <div class="row justify-content-lg-end">
+
+      <!-- Nayzak Documentation Aside -->
+      <nav class="col-lg-3 col-xl-2 navbar-expand-lg ms-2 px-0 nayzak-sidebar">
+        <div class="collapse navbar-collapse show" id="sidebar-nav">
+          <div id="sidebarNav" class="sidebar-scrollbar sidebar-sticky ps-2 ps-md-0 pe-2 accordion" data-simplebar>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#getting-started-collapse" role="button" aria-expanded="false">Getting started</a>
+            <ul class="collapse mb-0" id="getting-started-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="index.html">Introduction</a></li>
+              <li><a href="contents.html">Contents</a></li>
+              <li><a href="browsers-devices.html">Browsers &amp; devices</a></li>
+              <li><a href="javascript.html">JavaScript</a></li>
+              <li><a href="build-tools.html">Build tools</a></li>
+              <li><a href="webpack.html">Webpack</a></li>
+              <li><a href="accessibility.html">Accessibility</a></li>
+              <li><a href="rfs.html">RFS</a></li>
+              <li><a href="rtl.html">RTL</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#customize-collapse" role="button" aria-expanded="false">Customize</a>
+            <ul class="collapse mb-0" id="customize-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="options.html">Options</a></li>
+              <li><a href="colors.html">Color</a></li>
+              <li><a href="customize-components.html">Components</a></li>
+              <li><a href="css-variables.html">CSS variables</a></li>
+              <li><a href="optimize.html">Optimize</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#layout-collapse" role="button" aria-expanded="true">Layout</a>
+            <ul class="collapse mb-0" id="layout-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="breakpoints.html">Breakpoints</a></li>
+              <li><a href="container.html">Container</a></li>
+              <li><a href="grid.html">Grid</a></li>
+              <li><a href="columns.html">Columns</a></li>
+              <li><a href="gutters.html">Gutters</a></li>
+              <li><a href="utilities.html">Utilities</a></li>
+              <li><a href="z-index.html">Z-index</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#content-collapse" role="button" aria-expanded="false">Content</a>
+            <ul class="collapse mb-0" id="content-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="images.html">Images</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="figures.html">Figures</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#forms-collapse" role="button" aria-expanded="false">Forms</a>
+            <ul class="collapse mb-0" id="forms-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="forms-overview.html">Form Overview</a></li>
+              <li><a href="form-control.html">Form control</a></li>
+              <li><a href="select.html">Select</a></li>
+              <li><a href="checks-radios.html">Checks &amp; radios</a></li>
+              <li><a href="range.html">Range</a></li>
+              <li><a href="input-group.html">Input group</a></li>
+              <li><a href="floating-labels.html">Floating labels</a></li>
+              <li><a href="form-layout.html">Layout</a></li>
+              <li><a href="validation.html">Validation</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#components-collapse" role="button" aria-expanded="false">Components</a>
+            <ul class="collapse mb-0" id="components-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="accordion.html">Accordion</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="breadcrumb.html">Breadcrumb</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="button-group.html">Button Group</a></li>
+              <li><a href="cards.html">Cards</a></li>
+              <li><a href="carousel.html">Carousel</a></li>
+              <li><a href="close-button.html">Close Button</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="dropdowns.html">Dropdowns</a></li>
+              <li><a href="list-group.html">List group</a></li>
+              <li><a href="modal.html">Modal</a></li>
+              <li><a href="navs-tabs.html">Navs &amp; Tabs</a></li>
+              <li><a href="navs.html">Navs</a></li>
+              <li><a href="offcanvas.html">Offcanvas</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="popovers.html">Popovers</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scrollspy.html">Scrollspy</a></li>
+              <li><a href="spinners.html">Spinners</a></li>
+              <li><a href="toasts.html">Toasts</a></li>
+              <li><a href="tooltips.html">Tooltips</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#helpers-collapse" role="button" aria-expanded="false">Helpers</a>
+            <ul class="collapse mb-0" id="helpers-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="clearfix.html">Clearfix</a></li>
+              <li><a href="colored-links.html">Colored links</a></li>
+              <li><a href="ratio.html">Ratio</a></li>
+              <li><a href="position.html">Position</a></li>
+              <li><a href="visually-hidden.html">Visually Hidden</a></li>
+              <li><a href="stretched-link.html">Stretched link</a></li>
+              <li><a href="text-truncation.html">Text truncation</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#utilities-collapse" role="button" aria-expanded="false">Utilities</a>
+            <ul class="collapse mb-0" id="utilities-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="api.html">API</a></li>
+              <li><a href="background.html">Background</a></li>
+              <li><a href="borders.html">Borders</a></li>
+              <li><a href="display.html">Display</a></li>
+              <li><a href="flex.html">Flex</a></li>
+              <li><a href="float.html">Float</a></li>
+              <li><a href="interactions.html">Interactions</a></li>
+              <li><a href="overflow.html">Overflow</a></li>
+              <li><a href="utilitie-position.html">Position</a></li>
+              <li><a href="shadows.html">Shadows</a></li>
+              <li><a href="sizing.html">Sizing</a></li>
+              <li><a href="spacings.html">Spacings</a></li>
+              <li><a href="text.html">Text</a></li>
+              <li><a href="vertical-align.html">Vertical align</a></li>
+              <li><a href="visibility.html">Visibility</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#extend-collapse" role="button" aria-expanded="false">Extend</a>
+            <ul class="collapse mb-0" id="extend-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="approach.html">Approach</a></li>
+              <li><a href="bootstrap-icons.html">Bootstrap Icons</a></li>
+              <li><a href="tabler-icons.html">Tabler Icons</a></li>
+            </ul>
+            <a class="sidebar-heading mb-0" data-bs-toggle="collapse" href="#plugins-collapse" role="button" aria-expanded="true">Plugins</a>
+            <ul class="collapse show mb-0" id="plugins-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="swiper.html">Swiper</a></li>
+              <li><a href="aos.html" class="active">AOS</a></li>
+              <li><a href="hover-master.html">Hover Master</a></li>
+              <li><a href="mapbox.html">Mapbox</a></li>
+              <li><a href="intltelinput.html">intlTelInput</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#more-collapse" role="button" aria-expanded="false">More</a>
+            <ul class="collapse mb-0" id="more-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="credits.html">Credits</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Nayzak Documentation Content -->
+      <div class="col-xl-10">
+        <div class="p-0 p-md-4">
+          <div class="content-divider">
+            <h1 class="bd-title h3">AOS Animate</h1>
+            <p class="fs-5">Small library to animate elements on your page as you scroll.</p>
+            <a class="btn-link link-dark link-sm" href="https://michalsnik.github.io/aos/" target="_blank">Documentation for AOS</a>
+          </div>
+          <h2 class="h5">How to use?</h2>
+          <p class="fs-5">Copy-paste the following <code class="highlighter-rouge">&lt;link&gt;</code> near the end of your pages under <em><u>Nayzak Plugins SCSS</u></em> to enable it.</p>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-html" data-lang="html">
+                &lt;link href="assets/plugins/aos/sass/aos.scss" rel="stylesheet" type="text/css" media="all"&gt;
+              </code>
+            </pre>
+          </div>
+          <p class="fs-5">Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code> near the end of your pages under <em><u>Nayzak Javascript Plugins</u></em> to enable it.</p>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-html" data-lang="html">
+                &lt;script src="assets/plugins/aos/aos.min.js"&gt;&lt;/script&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5 mt-4">Initialize AOS</h2>
+          <p class="fs-5">Finally, we need to initialize AOS in JS:</p>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-html" data-lang="html">
+                &lt;script&gt;
+                  AOS.init();
+                &lt;/script&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5 mt-4">Add AOS HTML Layout</h2>
+          <p class="fs-5">Now, we need to add basic AOS layout to our app:</p>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-html" data-lang="html">
+                &lt;div data-aos="fade-up"&gt;&lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5 mt-4">Fade</h2>
+          <div class="bd-emample">
+            <div class="d-flex flex-wrap gap-3">
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">Fade Up</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-down" data-aos-delay="100" data-aos-duration="800">Fade Down</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-right" data-aos-delay="150" data-aos-duration="800">Fade Right</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">Fade Left</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-up-right" data-aos-delay="250" data-aos-duration="800">Fade Up Right</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-up-left" data-aos-delay="300" data-aos-duration="800">Fade Up Left</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-down-right" data-aos-delay="350" data-aos-duration="800">Fade Down Right</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-down-left" data-aos-delay="400" data-aos-duration="800">Fade Down Left</div>
+            </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;div data-aos="fade-up" data-aos-delay="50" data-aos-duration="800"&gt;Fade Up&lt;/div&gt;
+                &lt;div data-aos="fade-down" data-aos-delay="100" data-aos-duration="800"&gt;Fade Down&lt;/div&gt;
+                &lt;div data-aos="fade-right" data-aos-delay="150" data-aos-duration="800"&gt;Fade Right&lt;/div&gt;
+                &lt;div data-aos="fade-left" data-aos-delay="200" data-aos-duration="800"&gt;Fade Left&lt;/div&gt;
+                &lt;div data-aos="fade-up-right" data-aos-delay="250" data-aos-duration="800"&gt;Fade Up Right&lt;/div&gt;
+                &lt;div data-aos="fade-up-left" data-aos-delay="300" data-aos-duration="800"&gt;Fade Up Left&lt;/div&gt;
+                &lt;div data-aos="fade-down-right" data-aos-delay="350" data-aos-duration="800"&gt;Fade Down Right&lt;/div&gt;
+                &lt;div data-aos="fade-down-left" data-aos-delay="400" data-aos-duration="800"&gt;Fade Down Left&lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5">Flip</h2>
+          <div class="bd-emample">
+            <div class="d-flex flex-wrap gap-3">
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="flip-left" data-aos-delay="50" data-aos-duration="800">Flip Left</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="flip-right" data-aos-delay="100" data-aos-duration="800">Flip Right</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="flip-up" data-aos-delay="150" data-aos-duration="800">Flip Up</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="flip-down" data-aos-delay="200" data-aos-duration="800">Flip Down</div>
+            </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;div data-aos="flip-left" data-aos-delay="50" data-aos-duration="800"&gt;Flip Left&lt;/div&gt;
+                &lt;div data-aos="flip-right" data-aos-delay="100" data-aos-duration="800"&gt;Flip Right&lt;/div&gt;
+                &lt;div data-aos="flip-up" data-aos-delay="150" data-aos-duration="800"&gt;Flip Up&lt;/div&gt;
+                &lt;div data-aos="flip-down" data-aos-delay="200" data-aos-duration="800"&gt;Flip Down&lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5">Zoom</h2>
+          <div class="bd-emample">
+            <div class="d-flex flex-wrap gap-3">
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="800">Zoom In</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="800">Zoom In Up</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="zoom-in-down" data-aos-delay="150" data-aos-duration="800">Zoom In Down</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="zoom-in-left" data-aos-delay="200" data-aos-duration="800">Zoom In Left</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="zoom-in-right" data-aos-delay="200" data-aos-duration="800">Zoom In Right</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="zoom-out" data-aos-delay="200" data-aos-duration="800">Zoom Out</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="zoom-out-up" data-aos-delay="200" data-aos-duration="800">Zoom Out Up</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="zoom-out-down" data-aos-delay="200" data-aos-duration="800">Zoom Out Down</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="zoom-out-right" data-aos-delay="200" data-aos-duration="800">Zoom Out Right</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="zoom-out-left" data-aos-delay="200" data-aos-duration="800">Zoom Out Left</div>
+            </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;div data-aos="zoom-in" data-aos-delay="50" data-aos-duration="800"&gt;Zoom In&lt;/div&gt;
+                &lt;div data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="800"&gt;Zoom In Up&lt;/div&gt;
+                &lt;div data-aos="zoom-in-down" data-aos-delay="150" data-aos-duration="800"&gt;Zoom In Down&lt;/div&gt;
+                &lt;div data-aos="zoom-in-left" data-aos-delay="200" data-aos-duration="800"&gt;Zoom In Left&lt;/div&gt;
+                &lt;div data-aos="zoom-in-right" data-aos-delay="200" data-aos-duration="800"&gt;Zoom In Right&lt;/div&gt;
+                &lt;div data-aos="zoom-out" data-aos-delay="200" data-aos-duration="800"&gt;Zoom Out&lt;/div&gt;
+                &lt;div data-aos="zoom-out-up" data-aos-delay="200" data-aos-duration="800"&gt;Zoom Out Up&lt;/div&gt;
+                &lt;div data-aos="zoom-out-down" data-aos-delay="200" data-aos-duration="800"&gt;Zoom Out Down&lt;/div&gt;
+                &lt;div data-aos="zoom-out-right" data-aos-delay="200" data-aos-duration="800"&gt;Zoom Out Right&lt;/div&gt;
+                &lt;div data-aos="zoom-out-left" data-aos-delay="200" data-aos-duration="800"&gt;Zoom Out Left&lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5">Different settings examples</h2>
+          <div class="bd-emample">
+            <div class="d-flex flex-wrap gap-3">
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-up" data-aos-duration="3000">Fade Up</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Fade Down</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Fade Right</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">Fade Left</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">Fade Zoom In</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Flip Left</div>
+            </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;div data-aos="fade-up" data-aos-duration="3000">Fade Up&lt;/div&gt;
+                &lt;div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"&gt;Fade Down&lt;/div&gt;
+                &lt;div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"&gt;Fade Right&lt;/div&gt;
+                &lt;div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500"&gt;Fade Left&lt;/div&gt;
+                &lt;div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"&gt;Fade Zoom In&lt;/div&gt;
+                &lt;div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"&gt;Flip Left&lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5">Anchor placement</h2>
+          <div class="bd-emample">
+            <div class="d-flex flex-wrap gap-3">
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Top Bottom</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Center Bottom</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Bottom Bottom</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-up" data-aos-anchor-placement="top-center">Top Center</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-up" data-aos-anchor-placement="center-center">Center Center</div>
+              <div class="d-inline-block p-5 border-5 border border-gray bg-white fs-3 fw-bold" data-aos="fade-up" data-aos-anchor-placement="bottom-center">Bottom Center</div>
+            </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;div data-aos="fade-up" data-aos-anchor-placement="top-bottom"&gt;Top Bottom&lt;/div&gt;
+                &lt;div data-aos="fade-up" data-aos-anchor-placement="center-bottom"&gt;Center Bottom&lt;/div&gt;
+                &lt;div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"&gt;Bottom Bottom&lt;/div&gt;
+                &lt;div data-aos="fade-up" data-aos-anchor-placement="top-center"&gt;Top Center&lt;/div&gt;
+                &lt;div data-aos="fade-up" data-aos-anchor-placement="center-center"&gt;Center Center&lt;/div&gt;
+                &lt;div data-aos="fade-up" data-aos-anchor-placement="bottom-center"&gt;Bottom Center&lt;/div&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Nayzak Global Compulsory Javascript -->
+<script src="../assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="../assets/plugins/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/plugins/aos/aos.min.js"></script>
+<script src="../assets/plugins/intl-tel-input/intlTelInput.min.js"></script>
+<script src="../assets/plugins/intl-tel-input/utils.js"></script>
+<script src="../assets/plugins/mapbox/mapbox.gl.js"></script>
+<script src="../assets/js/custom.js"></script>
+<!-- Nayzak Documentation Javascript Plugins -->
+<script src="assets/vendor/prism/prism.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>

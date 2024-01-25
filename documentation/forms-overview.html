@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Forms Overview - Nayzak Documentation | Nayzak - Responsive Website Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/favicon.ico" rel="shortcut icon">
+<!-- Nayzak Theme CSS -->
+<link href="../assets/plugins/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="../assets/css/styles.min.css" rel="stylesheet" type="text/css" media="all">
+<!-- Nayzak Documentation CSS -->
+<link href="assets/vendor/prism/prism.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/css/docs.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+
+<!-- Nayzak Documentation -->
+<div class="nayzak-documentation">
+
+  <!-- Nayzak Documentation Header -->
+  <header class="doc-header bg-white px-3 px-md-4 shadow-sm position-fixed">
+    <nav class="navbar navbar-expand-lg has-header-inner py-0">
+      <a class="navbar-brand" href="index.html">
+        <picture>
+          <source media="(min-width:767px)" srcset="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/dark-brand.svg">
+          <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/dark-toggle-brand.svg" alt="Nayzak">
+        </picture>
+      </a>
+      <div class="text-end d-block d-xl-none order-md-2 ms-auto">
+        <a href="javascript:void(0);" class="aside-toggle">
+          <img src="assets/img/hamburger@20.svg" class="menu-icon" alt="Menu">        
+          <img src="assets/img/close@20.svg" class="menu-close" alt="Menu Close">
+        </a>
+      </div>
+      <ul class="nav nav-classic nav-sm border-0 nav-docs-space ms-auto">
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3 active" href="index.html">
+            <span class="d-none d-sm-block">Documentation</span>
+            <span class="d-sm-none">Docs</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3" href="snippets/index.html">Snippets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3" target="_blank" href="../landing1.html">Templates</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Container Fluid, Main Docs -->
+  <div class="container-fluid main-docs">
+    <div class="row justify-content-lg-end">
+
+      <!-- Nayzak Documentation Aside -->
+      <nav class="col-lg-3 col-xl-2 navbar-expand-lg ms-2 px-0 nayzak-sidebar">
+        <div class="collapse navbar-collapse show" id="sidebar-nav">
+          <div id="sidebarNav" class="sidebar-scrollbar sidebar-sticky ps-2 ps-md-0 pe-2 accordion" data-simplebar>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#getting-started-collapse" role="button" aria-expanded="false">Getting started</a>
+            <ul class="collapse mb-0" id="getting-started-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="index.html">Introduction</a></li>
+              <li><a href="contents.html">Contents</a></li>
+              <li><a href="browsers-devices.html">Browsers &amp; devices</a></li>
+              <li><a href="javascript.html">JavaScript</a></li>
+              <li><a href="build-tools.html">Build tools</a></li>
+              <li><a href="webpack.html">Webpack</a></li>
+              <li><a href="accessibility.html">Accessibility</a></li>
+              <li><a href="rfs.html">RFS</a></li>
+              <li><a href="rtl.html">RTL</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#customize-collapse" role="button" aria-expanded="false">Customize</a>
+            <ul class="collapse mb-0" id="customize-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="options.html">Options</a></li>
+              <li><a href="colors.html">Color</a></li>
+              <li><a href="customize-components.html">Components</a></li>
+              <li><a href="css-variables.html">CSS variables</a></li>
+              <li><a href="optimize.html">Optimize</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#layout-collapse" role="button" aria-expanded="true">Layout</a>
+            <ul class="collapse mb-0" id="layout-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="breakpoints.html">Breakpoints</a></li>
+              <li><a href="container.html">Container</a></li>
+              <li><a href="grid.html">Grid</a></li>
+              <li><a href="columns.html">Columns</a></li>
+              <li><a href="gutters.html">Gutters</a></li>
+              <li><a href="utilities.html">Utilities</a></li>
+              <li><a href="z-index.html">Z-index</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#content-collapse" role="button" aria-expanded="false">Content</a>
+            <ul class="collapse mb-0" id="content-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="images.html">Images</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="figures.html">Figures</a></li>
+            </ul>
+            <a class="sidebar-heading mb-0" data-bs-toggle="collapse" href="#forms-collapse" role="button" aria-expanded="true">Forms</a>
+            <ul class="collapse show mb-0" id="forms-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="forms-overview.html" class="active">Form Overview</a></li>
+              <li><a href="form-control.html">Form control</a></li>
+              <li><a href="select.html">Select</a></li>
+              <li><a href="checks-radios.html">Checks &amp; radios</a></li>
+              <li><a href="range.html">Range</a></li>
+              <li><a href="input-group.html">Input group</a></li>
+              <li><a href="floating-labels.html">Floating labels</a></li>
+              <li><a href="form-layout.html">Layout</a></li>
+              <li><a href="validation.html">Validation</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#components-collapse" role="button" aria-expanded="false">Components</a>
+            <ul class="collapse mb-0" id="components-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="accordion.html">Accordion</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="breadcrumb.html">Breadcrumb</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="button-group.html">Button Group</a></li>
+              <li><a href="cards.html">Cards</a></li>
+              <li><a href="carousel.html">Carousel</a></li>
+              <li><a href="close-button.html">Close Button</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="dropdowns.html">Dropdowns</a></li>
+              <li><a href="list-group.html">List group</a></li>
+              <li><a href="modal.html">Modal</a></li>
+              <li><a href="navs-tabs.html">Navs &amp; Tabs</a></li>
+              <li><a href="navs.html">Navs</a></li>
+              <li><a href="offcanvas.html">Offcanvas</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="popovers.html">Popovers</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scrollspy.html">Scrollspy</a></li>
+              <li><a href="spinners.html">Spinners</a></li>
+              <li><a href="toasts.html">Toasts</a></li>
+              <li><a href="tooltips.html">Tooltips</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#helpers-collapse" role="button" aria-expanded="false">Helpers</a>
+            <ul class="collapse mb-0" id="helpers-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="clearfix.html">Clearfix</a></li>
+              <li><a href="colored-links.html">Colored links</a></li>
+              <li><a href="ratio.html">Ratio</a></li>
+              <li><a href="position.html">Position</a></li>
+              <li><a href="visually-hidden.html">Visually Hidden</a></li>
+              <li><a href="stretched-link.html">Stretched link</a></li>
+              <li><a href="text-truncation.html">Text truncation</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#utilities-collapse" role="button" aria-expanded="false">Utilities</a>
+            <ul class="collapse mb-0" id="utilities-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="api.html">API</a></li>
+              <li><a href="background.html">Background</a></li>
+              <li><a href="borders.html">Borders</a></li>
+              <li><a href="display.html">Display</a></li>
+              <li><a href="flex.html">Flex</a></li>
+              <li><a href="float.html">Float</a></li>
+              <li><a href="interactions.html">Interactions</a></li>
+              <li><a href="overflow.html">Overflow</a></li>
+              <li><a href="utilitie-position.html">Position</a></li>
+              <li><a href="shadows.html">Shadows</a></li>
+              <li><a href="sizing.html">Sizing</a></li>
+              <li><a href="spacings.html">Spacings</a></li>
+              <li><a href="text.html">Text</a></li>
+              <li><a href="vertical-align.html">Vertical align</a></li>
+              <li><a href="visibility.html">Visibility</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#extend-collapse" role="button" aria-expanded="false">Extend</a>
+            <ul class="collapse mb-0" id="extend-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="approach.html">Approach</a></li>
+              <li><a href="bootstrap-icons.html">Bootstrap Icons</a></li>
+              <li><a href="tabler-icons.html">Tabler Icons</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#plugins-collapse" role="button" aria-expanded="false">Plugins</a>
+            <ul class="collapse mb-0" id="plugins-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="swiper.html">Swiper</a></li>
+              <li><a href="aos.html">AOS</a></li>
+              <li><a href="hover-master.html">Hover Master</a></li>
+              <li><a href="mapbox.html">Mapbox</a></li>
+              <li><a href="intltelinput.html">intlTelInput</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#more-collapse" role="button" aria-expanded="false">More</a>
+            <ul class="collapse mb-0" id="more-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="credits.html">Credits</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+      <!-- Nayzak Documentation Content -->
+      <div class="col-xl-10">
+        <div class="p-0 p-md-4">
+          <div class="bd-intro">
+            <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
+              <a class="btn btn-sm btn-bd-light my-2 mb-md-0" href="https://github.com/twbs/bootstrap/blob/v5.0.2/site/content/docs/5.0/forms/overview.md" title="View and edit this file on GitHub" target="_blank" rel="noopener">View on GitHub</a>
+              <h1 class="bd-title h3" id="content">Forms</h1>
+            </div>
+            <p class="bd-lead fs-5">Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms.</p>
+          </div>
+          <div class="bd-content">
+            <h2 class="h5" id="overview">Overview</h2>
+            <p>Bootstrap&rsquo;s form controls expand on <a href="/docs/5.0/content/reboot/#forms">our Rebooted form styles</a> with classes. Use these classes to opt into their customized displays for a more consistent rendering across browsers and devices.</p>
+            <p>Be sure to use an appropriate <code>type</code> attribute on all inputs (e.g., <code>email</code> for email address or <code>number</code> for numerical information) to take advantage of newer input controls like email verification, number selection, and more.</p>
+            <p>Here&rsquo;s a quick example to demonstrate Bootstrap&rsquo;s form styles. Keep reading for documentation on required classes, form layout, and more.</p>
+            <div class="bd-example">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">form</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mb-3&#34;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;exampleInputEmail1&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-label&#34;</span><span class="p">&gt;</span>Email address<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;email&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-control&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;exampleInputEmail1&#34;</span> <span class="na">aria-describedby</span><span class="o">=</span><span class="s">&#34;emailHelp&#34;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;emailHelp&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-text&#34;</span><span class="p">&gt;</span>We&#39;ll never share your email with anyone else.<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mb-3&#34;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;exampleInputPassword1&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-label&#34;</span><span class="p">&gt;</span>Password<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;password&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-control&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;exampleInputPassword1&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mb-3 form-check&#34;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;exampleCheck1&#34;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;exampleCheck1&#34;</span><span class="p">&gt;</span>Check me out<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">button</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;submit&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn btn-primary&#34;</span><span class="p">&gt;</span>Submit<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <h2 class="h5" id="form-text">Form text</h2>
+            <p>Block-level or inline-level form text can be created using <code>.form-text</code>.</p>
+            <div class="bd-callout bd-callout-warning">
+              <h5 id="associating-form-text-with-form-controls">Associating form text with form controls</h5>
+              <p>Form text should be explicitly associated with the form control it relates to using the <code>aria-describedby</code> attribute. This will ensure that assistive technologies—such as screen readers—will announce this form text when the user focuses or enters the control.
+            </div>
+            <p>Form text below inputs can be styled with <code>.form-text</code>. If a block-level element will be used, a top margin is added for easy spacing from the inputs above.</p>
+            <div class="bd-example">
+              <label for="inputPassword5" class="form-label">Password</label>
+              <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+              <div id="passwordHelpBlock" class="form-text">
+                Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+              </div>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;inputPassword5&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-label&#34;</span><span class="p">&gt;</span>Password<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;password&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;inputPassword5&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-control&#34;</span> <span class="na">aria-describedby</span><span class="o">=</span><span class="s">&#34;passwordHelpBlock&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;passwordHelpBlock&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-text&#34;</span><span class="p">&gt;</span>
+    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <p>Inline text can use any typical inline HTML element (be it a <code>&lt;span&gt;</code>, <code>&lt;small&gt;</code>, or something else) with nothing more than the <code>.form-text</code> class.</p>
+            <div class="bd-example">
+              <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                  <label for="inputPassword6" class="col-form-label">Password</label>
+                </div>
+                <div class="col-auto">
+                  <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                </div>
+                <div class="col-auto">
+                  <span id="passwordHelpInline" class="form-text">
+                  Must be 8-20 characters long.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;row g-3 align-items-center&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;col-auto&#34;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;inputPassword6&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;col-form-label&#34;</span><span class="p">&gt;</span>Password<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;col-auto&#34;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;password&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;inputPassword6&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-control&#34;</span> <span class="na">aria-describedby</span><span class="o">=</span><span class="s">&#34;passwordHelpInline&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;col-auto&#34;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">span</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;passwordHelpInline&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-text&#34;</span><span class="p">&gt;</span>
+        Must be 8-20 characters long.
+      <span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <h2 class="h5" id="disabled-forms">Disabled forms</h2>
+            <p>Add the <code>disabled</code> boolean attribute on an input to prevent user interactions and make it appear lighter.</p>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-control&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;disabledInput&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text&#34;</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">&#34;Disabled input here...&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>
+  </code></pre>
+            </div>
+            <p>Add the <code>disabled</code> attribute to a <code>&lt;fieldset&gt;</code> to disable all the controls within. Browsers treat all native form controls (<code>&lt;input&gt;</code>, <code>&lt;select&gt;</code>, and <code>&lt;button&gt;</code> elements) inside a <code>&lt;fieldset disabled&gt;</code> as disabled, preventing both keyboard and mouse interactions on them.</p>
+            <p>However, if your form also includes custom button-like elements such as <code>&lt;a class=&quot;btn btn-*&quot;&gt;...&lt;/a&gt;</code>, these will only be given a style of <code>pointer-events: none</code>, meaning they are still focusable and operable using the keyboard. In this case, you must manually modify these controls by adding <code>tabindex=&quot;-1&quot;</code> to prevent them from receiving focus and <code>aria-disabled=&quot;disabled&quot;</code> to signal their state to assistive technologies.</p>
+            <div class="bd-example">
+              <form>
+                <fieldset disabled>
+                  <legend>Disabled fieldset example</legend>
+                  <div class="mb-3">
+                    <label for="disabledTextInput" class="form-label">Disabled input</label>
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                  </div>
+                  <div class="mb-3">
+                    <label for="disabledSelect" class="form-label">Disabled select menu</label>
+                    <select id="disabledSelect" class="form-select">
+                      <option>Disabled select</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+                      <label class="form-check-label" for="disabledFieldsetCheck">
+                      Can't check this
+                      </label>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </fieldset>
+              </form>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">form</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">fieldset</span> <span class="na">disabled</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">legend</span><span class="p">&gt;</span>Disabled fieldset example<span class="p">&lt;/</span><span class="nt">legend</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mb-3&#34;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;disabledTextInput&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-label&#34;</span><span class="p">&gt;</span>Disabled input<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;disabledTextInput&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-control&#34;</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">&#34;Disabled input&#34;</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mb-3&#34;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;disabledSelect&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-label&#34;</span><span class="p">&gt;</span>Disabled select menu<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">select</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;disabledSelect&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-select&#34;</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>Disabled select<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">select</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;mb-3&#34;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;disabledFieldsetCheck&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;disabledFieldsetCheck&#34;</span><span class="p">&gt;</span>
+            Can&#39;t check this
+          <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">button</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;submit&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn btn-primary&#34;</span><span class="p">&gt;</span>Submit<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">fieldset</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <h2 class="h5" id="accessibility">Accessibility</h2>
+            <p>Ensure that all form controls have an appropriate accessible name so that their purpose can be conveyed to users of assistive technologies. The simplest way to achieve this is to use a <code>&lt;label&gt;</code> element, or—in the case of buttons—to include sufficiently descriptive text as part of the <code>&lt;button&gt;...&lt;/button&gt;</code> content.</p>
+            <p>For situations where it&rsquo;s not possible to include a visible <code>&lt;label&gt;</code> or appropriate text content, there are alternative ways of still providing an accessible name, such as:</p>
+            <ul>
+              <li><code>&lt;label&gt;</code> elements hidden using the <code>.visually-hidden</code> class</li>
+              <li>Pointing to an existing element that can act as a label using <code>aria-labelledby</code></li>
+              <li>Providing a <code>title</code> attribute</li>
+              <li>Explicitly setting the accessible name on an element using <code>aria-label</code></li>
+            </ul>
+            <p>If none of these are present, assistive technologies may resort to using the <code>placeholder</code> attribute as a fallback for the accessible name on <code>&lt;input&gt;</code> and <code>&lt;textarea&gt;</code> elements. The examples in this section provide a few suggested, case-specific approaches.</p>
+            <p>While using visually hidden content (<code>.visually-hidden</code>, <code>aria-label</code>, and even <code>placeholder</code> content, which disappears once a form field has content) will benefit assistive technology users, a lack of visible label text may still be problematic for certain users. Some form of visible label is generally the best approach, both for accessibility and usability.</p>
+            <h2 class="h5" id="sass">Sass</h2>
+            <p>Many form variables are set at a general level to be re-used and extended by individual form components. You&rsquo;ll see these most often as <code>$btn-input-*</code> and <code>$input-*</code> variables.</p>
+            <h3 class="h5" id="variables">Variables</h3>
+            <p><code>$btn-input-*</code> variables are shared global variables between our <a href="/docs/5.0/components/buttons/">buttons</a> and our form components. You&rsquo;ll find these frequently reassigned as values to other component-specific variables.</p>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-scss" data-lang="scss"><span class="nv">$input-btn-padding-y</span><span class="o">:</span>         <span class="mf">.375</span><span class="kt">rem</span><span class="p">;</span>
+  <span class="nv">$input-btn-padding-x</span><span class="o">:</span>         <span class="mf">.75</span><span class="kt">rem</span><span class="p">;</span>
+  <span class="nv">$input-btn-font-family</span><span class="o">:</span>       <span class="n">null</span><span class="p">;</span>
+  <span class="nv">$input-btn-font-size</span><span class="o">:</span>         <span class="nv">$font-size-base</span><span class="p">;</span>
+  <span class="nv">$input-btn-line-height</span><span class="o">:</span>       <span class="nv">$line-height-base</span><span class="p">;</span>
+  
+  <span class="nv">$input-btn-focus-width</span><span class="o">:</span>         <span class="mf">.25</span><span class="kt">rem</span><span class="p">;</span>
+  <span class="nv">$input-btn-focus-color-opacity</span><span class="o">:</span> <span class="mf">.25</span><span class="p">;</span>
+  <span class="nv">$input-btn-focus-color</span><span class="o">:</span>         <span class="nf">rgba</span><span class="p">(</span><span class="nv">$component-active-bg</span><span class="o">,</span> <span class="nv">$input-btn-focus-color-opacity</span><span class="p">);</span>
+  <span class="nv">$input-btn-focus-blur</span><span class="o">:</span>          <span class="mi">0</span><span class="p">;</span>
+  <span class="nv">$input-btn-focus-box-shadow</span><span class="o">:</span>    <span class="mi">0</span> <span class="mi">0</span> <span class="nv">$input-btn-focus-blur</span> <span class="nv">$input-btn-focus-width</span> <span class="nv">$input-btn-focus-color</span><span class="p">;</span>
+  
+  <span class="nv">$input-btn-padding-y-sm</span><span class="o">:</span>      <span class="mf">.25</span><span class="kt">rem</span><span class="p">;</span>
+  <span class="nv">$input-btn-padding-x-sm</span><span class="o">:</span>      <span class="mf">.5</span><span class="kt">rem</span><span class="p">;</span>
+  <span class="nv">$input-btn-font-size-sm</span><span class="o">:</span>      <span class="nv">$font-size-sm</span><span class="p">;</span>
+  
+  <span class="nv">$input-btn-padding-y-lg</span><span class="o">:</span>      <span class="mf">.5</span><span class="kt">rem</span><span class="p">;</span>
+  <span class="nv">$input-btn-padding-x-lg</span><span class="o">:</span>      <span class="mi">1</span><span class="kt">rem</span><span class="p">;</span>
+  <span class="nv">$input-btn-font-size-lg</span><span class="o">:</span>      <span class="nv">$font-size-lg</span><span class="p">;</span>
+  
+  <span class="nv">$input-btn-border-width</span><span class="o">:</span>      <span class="nv">$border-width</span><span class="p">;</span>
+  </code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Nayzak Global Compulsory Javascript -->
+<script src="../assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="../assets/plugins/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/plugins/aos/aos.min.js"></script>
+<script src="../assets/plugins/intl-tel-input/intlTelInput.min.js"></script>
+<script src="../assets/plugins/intl-tel-input/utils.js"></script>
+<script src="../assets/plugins/mapbox/mapbox.gl.js"></script>
+<script src="../assets/js/custom.js"></script>
+<!-- Nayzak Documentation Javascript Plugins -->
+<script src="assets/vendor/prism/prism.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>

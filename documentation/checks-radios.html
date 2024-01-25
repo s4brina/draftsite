@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Checks - Nayzak Documentation | Nayzak - Responsive Website Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/favicon.ico" rel="shortcut icon">
+<!-- Nayzak Theme CSS -->
+<link href="../assets/plugins/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="../assets/css/styles.min.css" rel="stylesheet" type="text/css" media="all">
+<!-- Nayzak Documentation CSS -->
+<link href="assets/vendor/prism/prism.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/css/docs.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+
+<!-- Nayzak Documentation -->
+<div class="nayzak-documentation">
+
+  <!-- Nayzak Documentation Header -->
+  <header class="doc-header bg-white px-3 px-md-4 shadow-sm position-fixed">
+    <nav class="navbar navbar-expand-lg has-header-inner py-0">
+      <a class="navbar-brand" href="index.html">
+        <picture>
+          <source media="(min-width:767px)" srcset="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/dark-brand.svg">
+          <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/dark-toggle-brand.svg" alt="Nayzak">
+        </picture>
+      </a>
+      <div class="text-end d-block d-xl-none order-md-2 ms-auto">
+        <a href="javascript:void(0);" class="aside-toggle">
+          <img src="assets/img/hamburger@20.svg" class="menu-icon" alt="Menu">        
+          <img src="assets/img/close@20.svg" class="menu-close" alt="Menu Close">
+        </a>
+      </div>
+      <ul class="nav nav-classic nav-sm border-0 nav-docs-space ms-auto">
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3 active" href="index.html">
+            <span class="d-none d-sm-block">Documentation</span>
+            <span class="d-sm-none">Docs</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3" href="snippets/index.html">Snippets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3" target="_blank" href="../landing1.html">Templates</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Container Fluid, Main Docs -->
+  <div class="container-fluid main-docs">
+    <div class="row justify-content-lg-end">
+
+      <!-- Nayzak Documentation Aside -->
+      <nav class="col-lg-3 col-xl-2 navbar-expand-lg ms-2 px-0 nayzak-sidebar">
+        <div class="collapse navbar-collapse show" id="sidebar-nav">
+          <div id="sidebarNav" class="sidebar-scrollbar sidebar-sticky ps-2 ps-md-0 pe-2 accordion" data-simplebar>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#getting-started-collapse" role="button" aria-expanded="false">Getting started</a>
+            <ul class="collapse mb-0" id="getting-started-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="index.html">Introduction</a></li>
+              <li><a href="contents.html">Contents</a></li>
+              <li><a href="browsers-devices.html">Browsers &amp; devices</a></li>
+              <li><a href="javascript.html">JavaScript</a></li>
+              <li><a href="build-tools.html">Build tools</a></li>
+              <li><a href="webpack.html">Webpack</a></li>
+              <li><a href="accessibility.html">Accessibility</a></li>
+              <li><a href="rfs.html">RFS</a></li>
+              <li><a href="rtl.html">RTL</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#customize-collapse" role="button" aria-expanded="false">Customize</a>
+            <ul class="collapse mb-0" id="customize-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="options.html">Options</a></li>
+              <li><a href="colors.html">Color</a></li>
+              <li><a href="customize-components.html">Components</a></li>
+              <li><a href="css-variables.html">CSS variables</a></li>
+              <li><a href="optimize.html">Optimize</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#layout-collapse" role="button" aria-expanded="true">Layout</a>
+            <ul class="collapse mb-0" id="layout-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="breakpoints.html">Breakpoints</a></li>
+              <li><a href="container.html">Container</a></li>
+              <li><a href="grid.html">Grid</a></li>
+              <li><a href="columns.html">Columns</a></li>
+              <li><a href="gutters.html">Gutters</a></li>
+              <li><a href="utilities.html">Utilities</a></li>
+              <li><a href="z-index.html">Z-index</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#content-collapse" role="button" aria-expanded="false">Content</a>
+            <ul class="collapse mb-0" id="content-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="images.html">Images</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="figures.html">Figures</a></li>
+            </ul>
+            <a class="sidebar-heading mb-0" data-bs-toggle="collapse" href="#forms-collapse" role="button" aria-expanded="true">Forms</a>
+            <ul class="collapse show mb-0" id="forms-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="forms-overview.html">Form Overview</a></li>
+              <li><a href="form-control.html">Form control</a></li>
+              <li><a href="select.html">Select</a></li>
+              <li><a href="checks-radios.html" class="active">Checks &amp; radios</a></li>
+              <li><a href="range.html">Range</a></li>
+              <li><a href="input-group.html">Input group</a></li>
+              <li><a href="floating-labels.html">Floating labels</a></li>
+              <li><a href="form-layout.html">Layout</a></li>
+              <li><a href="validation.html">Validation</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#components-collapse" role="button" aria-expanded="false">Components</a>
+            <ul class="collapse mb-0" id="components-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="accordion.html">Accordion</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="breadcrumb.html">Breadcrumb</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="button-group.html">Button Group</a></li>
+              <li><a href="cards.html">Cards</a></li>
+              <li><a href="carousel.html">Carousel</a></li>
+              <li><a href="close-button.html">Close Button</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="dropdowns.html">Dropdowns</a></li>
+              <li><a href="list-group.html">List group</a></li>
+              <li><a href="modal.html">Modal</a></li>
+              <li><a href="navs-tabs.html">Navs &amp; Tabs</a></li>
+              <li><a href="navs.html">Navs</a></li>
+              <li><a href="offcanvas.html">Offcanvas</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="popovers.html">Popovers</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scrollspy.html">Scrollspy</a></li>
+              <li><a href="spinners.html">Spinners</a></li>
+              <li><a href="toasts.html">Toasts</a></li>
+              <li><a href="tooltips.html">Tooltips</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#helpers-collapse" role="button" aria-expanded="false">Helpers</a>
+            <ul class="collapse mb-0" id="helpers-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="clearfix.html">Clearfix</a></li>
+              <li><a href="colored-links.html">Colored links</a></li>
+              <li><a href="ratio.html">Ratio</a></li>
+              <li><a href="position.html">Position</a></li>
+              <li><a href="visually-hidden.html">Visually Hidden</a></li>
+              <li><a href="stretched-link.html">Stretched link</a></li>
+              <li><a href="text-truncation.html">Text truncation</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#utilities-collapse" role="button" aria-expanded="false">Utilities</a>
+            <ul class="collapse mb-0" id="utilities-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="api.html">API</a></li>
+              <li><a href="background.html">Background</a></li>
+              <li><a href="borders.html">Borders</a></li>
+              <li><a href="display.html">Display</a></li>
+              <li><a href="flex.html">Flex</a></li>
+              <li><a href="float.html">Float</a></li>
+              <li><a href="interactions.html">Interactions</a></li>
+              <li><a href="overflow.html">Overflow</a></li>
+              <li><a href="utilitie-position.html">Position</a></li>
+              <li><a href="shadows.html">Shadows</a></li>
+              <li><a href="sizing.html">Sizing</a></li>
+              <li><a href="spacings.html">Spacings</a></li>
+              <li><a href="text.html">Text</a></li>
+              <li><a href="vertical-align.html">Vertical align</a></li>
+              <li><a href="visibility.html">Visibility</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#extend-collapse" role="button" aria-expanded="false">Extend</a>
+            <ul class="collapse mb-0" id="extend-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="approach.html">Approach</a></li>
+              <li><a href="bootstrap-icons.html">Bootstrap Icons</a></li>
+              <li><a href="tabler-icons.html">Tabler Icons</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#plugins-collapse" role="button" aria-expanded="false">Plugins</a>
+            <ul class="collapse mb-0" id="plugins-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="swiper.html">Swiper</a></li>
+              <li><a href="aos.html">AOS</a></li>
+              <li><a href="hover-master.html">Hover Master</a></li>
+              <li><a href="mapbox.html">Mapbox</a></li>
+              <li><a href="intltelinput.html">intlTelInput</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#more-collapse" role="button" aria-expanded="false">More</a>
+            <ul class="collapse mb-0" id="more-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="credits.html">Credits</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+      <!-- Nayzak Documentation Content -->
+      <div class="col-xl-10">
+        <div class="p-0 p-md-4">
+          <div class="bd-intro">
+            <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
+              <a class="btn btn-xsm btn-bd-light my-2 mb-md-0" href="https://github.com/twbs/bootstrap/blob/v5.0.2/site/content/docs/5.0/forms/checks-radios.md" title="View and edit this file on GitHub" target="_blank" rel="noopener">View on GitHub</a>
+              <h1 class="bd-title h4" id="content">Checks and radios</h1>
+            </div>
+            <p class="bd-lead fs-5">Create consistent cross-browser and cross-device checkboxes and radios with our completely rewritten checks component.</p>
+          </div>
+          <div class="bd-content">
+            <h2 class="h5" id="approach">Approach</h2>
+            <p class="fs-5">Browser default checkboxes and radios are replaced with the help of <code>.form-check</code>, a series of classes for both input types that improves the layout and behavior of their HTML elements, that provide greater customization and cross browser consistency. Checkboxes are for selecting one or several options in a list, while radios are for selecting one option from many.</p>
+            <p class="fs-5">Structurally, our <code>&lt;input&gt;</code>s and <code>&lt;label&gt;</code>s are sibling elements as opposed to an <code>&lt;input&gt;</code> within a <code>&lt;label&gt;</code>. This is slightly more verbose as you must specify <code>id</code> and <code>for</code> attributes to relate the <code>&lt;input&gt;</code> and <code>&lt;label&gt;</code>. We use the sibling selector (<code>~</code>) for all our <code>&lt;input&gt;</code> states, like <code>:checked</code> or <code>:disabled</code>. When combined with the <code>.form-check-label</code> class, we can easily style the text for each item based on the <code>&lt;input&gt;</code>&rsquo;s state.</p>
+            <p class="fs-5">Our checks use custom Bootstrap icons to indicate checked or indeterminate states.</p>
+            <h2 class="h5" id="checks">Checks</h2>
+            <div class="bd-example">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                Default checkbox
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                Checked checkbox
+                </label>
+              </div>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;flexCheckDefault&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;flexCheckDefault&#34;</span><span class="p">&gt;</span>
+      Default checkbox
+    <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;flexCheckChecked&#34;</span> <span class="na">checked</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;flexCheckChecked&#34;</span><span class="p">&gt;</span>
+      Checked checkbox
+    <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <h3 class="h5" id="indeterminate">Indeterminate</h3>
+            <p class="fs-5">Checkboxes can utilize the <code>:indeterminate</code> pseudo class when manually set via JavaScript (there is no available HTML attribute for specifying it).</p>
+            <div class="bd-example bd-example-indeterminate">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                <label class="form-check-label" for="flexCheckIndeterminate">
+                Indeterminate checkbox
+                </label>
+              </div>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;flexCheckIndeterminate&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;flexCheckIndeterminate&#34;</span><span class="p">&gt;</span>
+      Indeterminate checkbox
+    <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <h3 class="h5" id="disabled">Disabled</h3>
+            <p class="fs-5">Add the <code>disabled</code> attribute and the associated <code>&lt;label&gt;</code>s are automatically styled to match with a lighter color to help indicate the input&rsquo;s state.</p>
+            <div class="bd-example">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+                <label class="form-check-label" for="flexCheckDisabled">
+                Disabled checkbox
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
+                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                Disabled checked checkbox
+                </label>
+              </div>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;flexCheckDisabled&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;flexCheckDisabled&#34;</span><span class="p">&gt;</span>
+      Disabled checkbox
+    <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;flexCheckCheckedDisabled&#34;</span> <span class="na">checked</span> <span class="na">disabled</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;flexCheckCheckedDisabled&#34;</span><span class="p">&gt;</span>
+      Disabled checked checkbox
+    <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <h2 class="h5" id="radios">Radios</h2>
+            <div class="bd-example">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                Default radio
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                Default checked radio
+                </label>
+              </div>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;flexRadioDefault&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;flexRadioDefault1&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;flexRadioDefault1&#34;</span><span class="p">&gt;</span>
+      Default radio
+    <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;flexRadioDefault&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;flexRadioDefault2&#34;</span> <span class="na">checked</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;flexRadioDefault2&#34;</span><span class="p">&gt;</span>
+      Default checked radio
+    <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <h3 class="h5" id="disabled-1">Disabled</h3>
+            <p class="fs-5">Add the <code>disabled</code> attribute and the associated <code>&lt;label&gt;</code>s are automatically styled to match with a lighter color to help indicate the input&rsquo;s state.</p>
+            <div class="bd-example">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+                <label class="form-check-label" for="flexRadioDisabled">
+                Disabled radio
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled" checked disabled>
+                <label class="form-check-label" for="flexRadioCheckedDisabled">
+                Disabled checked radio
+                </label>
+              </div>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;flexRadioDisabled&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;flexRadioDisabled&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;flexRadioDisabled&#34;</span><span class="p">&gt;</span>
+      Disabled radio
+    <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;flexRadioDisabled&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;flexRadioCheckedDisabled&#34;</span> <span class="na">checked</span> <span class="na">disabled</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;flexRadioCheckedDisabled&#34;</span><span class="p">&gt;</span>
+      Disabled checked radio
+    <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <h2 class="h5" id="switches">Switches</h2>
+            <p class="fs-5">A switch has the markup of a custom checkbox but uses the <code>.form-switch</code> class to render a toggle switch. Switches also support the <code>disabled</code> attribute.</p>
+            <div class="bd-example">
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled>
+                <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled>
+                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+              </div>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check form-switch&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;flexSwitchCheckDefault&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;flexSwitchCheckDefault&#34;</span><span class="p">&gt;</span>Default switch checkbox input<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check form-switch&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;flexSwitchCheckChecked&#34;</span> <span class="na">checked</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;flexSwitchCheckChecked&#34;</span><span class="p">&gt;</span>Checked switch checkbox input<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check form-switch&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;flexSwitchCheckDisabled&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;flexSwitchCheckDisabled&#34;</span><span class="p">&gt;</span>Disabled switch checkbox input<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check form-switch&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;flexSwitchCheckCheckedDisabled&#34;</span> <span class="na">checked</span> <span class="na">disabled</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;flexSwitchCheckCheckedDisabled&#34;</span><span class="p">&gt;</span>Disabled checked switch checkbox input<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <h2 class="h5" id="default-stacked">Default (stacked)</h2>
+            <p class="fs-5">By default, any number of checkboxes and radios that are immediate sibling will be vertically stacked and appropriately spaced with <code>.form-check</code>.</p>
+            <div class="bd-example">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                Default checkbox
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+                <label class="form-check-label" for="defaultCheck2">
+                Disabled checkbox
+                </label>
+              </div>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;defaultCheck1&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;defaultCheck1&#34;</span><span class="p">&gt;</span>
+      Default checkbox
+    <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;defaultCheck2&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;defaultCheck2&#34;</span><span class="p">&gt;</span>
+      Disabled checkbox
+    <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <div class="bd-example">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                Default radio
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                Second default radio
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+                <label class="form-check-label" for="exampleRadios3">
+                Disabled radio
+                </label>
+              </div>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;exampleRadios&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;exampleRadios1&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;option1&#34;</span> <span class="na">checked</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;exampleRadios1&#34;</span><span class="p">&gt;</span>
+      Default radio
+    <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;exampleRadios&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;exampleRadios2&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;option2&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;exampleRadios2&#34;</span><span class="p">&gt;</span>
+      Second default radio
+    <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;exampleRadios&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;exampleRadios3&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;option3&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;exampleRadios3&#34;</span><span class="p">&gt;</span>
+      Disabled radio
+    <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <h2 class="h5" id="inline">Inline</h2>
+            <p class="fs-5">Group checkboxes or radios on the same horizontal row by adding <code>.form-check-inline</code> to any <code>.form-check</code>.</p>
+            <div class="bd-example">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">2</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+                <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+              </div>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check form-check-inline&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;inlineCheckbox1&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;option1&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;inlineCheckbox1&#34;</span><span class="p">&gt;</span>1<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check form-check-inline&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;inlineCheckbox2&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;option2&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;inlineCheckbox2&#34;</span><span class="p">&gt;</span>2<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check form-check-inline&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;inlineCheckbox3&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;option3&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;inlineCheckbox3&#34;</span><span class="p">&gt;</span>3 (disabled)<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <div class="bd-example">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">2</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
+              </div>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check form-check-inline&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;inlineRadioOptions&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;inlineRadio1&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;option1&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;inlineRadio1&#34;</span><span class="p">&gt;</span>1<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check form-check-inline&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;inlineRadioOptions&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;inlineRadio2&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;option2&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;inlineRadio2&#34;</span><span class="p">&gt;</span>2<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check form-check-inline&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;inlineRadioOptions&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;inlineRadio3&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;option3&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-label&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;inlineRadio3&#34;</span><span class="p">&gt;</span>3 (disabled)<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <h2 class="h5" id="without-labels">Without labels</h2>
+            <p class="fs-5">Omit the wrapping <code>.form-check</code> for checkboxes and radios that have no label text. Remember to still provide some form of accessible name for assistive technologies (for instance, using <code>aria-label</code>). See the <a href="/docs/5.0/forms/overview/#accessibility">forms overview accessibility</a> section for details.</p>
+            <div class="bd-example">
+              <div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+              </div>
+              <div>
+                <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+              </div>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;checkboxNoLabel&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">aria-label</span><span class="o">=</span><span class="s">&#34;...&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  
+  <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;form-check-input&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;radioNoLabel&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;radioNoLabel1&#34;</span> <span class="na">value</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">aria-label</span><span class="o">=</span><span class="s">&#34;...&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <h2 class="h5" id="toggle-buttons">Toggle buttons</h2>
+            <p class="fs-5">Create button-like checkboxes and radio buttons by using <code>.btn</code> styles rather than <code>.form-check-label</code> on the <code>&lt;label&gt;</code> elements. These toggle buttons can further be grouped in a <a href="/docs/5.0/components/button-group/">button group</a> if needed.</p>
+            <h3 class="h5" id="checkbox-toggle-buttons">Checkbox toggle buttons</h3>
+            <div class="bd-example">
+              <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+              <label class="btn btn-primary" for="btn-check">Single toggle</label>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn-check&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;btn-check&#34;</span> <span class="na">autocomplete</span><span class="o">=</span><span class="s">&#34;off&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn btn-primary&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;btn-check&#34;</span><span class="p">&gt;</span>Single toggle<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <div class="bd-example">
+              <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
+              <label class="btn btn-primary" for="btn-check-2">Checked</label>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn-check&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;btn-check-2&#34;</span> <span class="na">checked</span> <span class="na">autocomplete</span><span class="o">=</span><span class="s">&#34;off&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn btn-primary&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;btn-check-2&#34;</span><span class="p">&gt;</span>Checked<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <div class="bd-example">
+              <input type="checkbox" class="btn-check" id="btn-check-3" autocomplete="off" disabled>
+              <label class="btn btn-primary" for="btn-check-3">Disabled</label>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn-check&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;btn-check-3&#34;</span> <span class="na">autocomplete</span><span class="o">=</span><span class="s">&#34;off&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn btn-primary&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;btn-check-3&#34;</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <div class="bd-callout bd-callout-info">
+              Visually, these checkbox toggle buttons are identical to the <a href="/docs/5.0/components/buttons/#button-plugin">button plugin toggle buttons</a>. However, they are conveyed differently by assistive technologies: the checkbox toggles will be announced by screen readers as &ldquo;checked&rdquo;/&ldquo;not checked&rdquo; (since, despite their appearance, they are fundamentally still checkboxes), whereas the button plugin toggle buttons will be announced as &ldquo;button&rdquo;/&ldquo;button pressed&rdquo;. The choice between these two approaches will depend on the type of toggle you are creating, and whether or not the toggle will make sense to users when announced as a checkbox or as an actual button.
+            </div>
+            <h3 class="h5" id="radio-toggle-buttons">Radio toggle buttons</h3>
+            <div class="bd-example">
+              <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+              <label class="btn btn-secondary" for="option1">Checked</label>
+              <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+              <label class="btn btn-secondary" for="option2">Radio</label>
+              <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" disabled>
+              <label class="btn btn-secondary" for="option3">Disabled</label>
+              <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+              <label class="btn btn-secondary" for="option4">Radio</label>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn-check&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;options&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;option1&#34;</span> <span class="na">autocomplete</span><span class="o">=</span><span class="s">&#34;off&#34;</span> <span class="na">checked</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn btn-secondary&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;option1&#34;</span><span class="p">&gt;</span>Checked<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  
+  <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn-check&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;options&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;option2&#34;</span> <span class="na">autocomplete</span><span class="o">=</span><span class="s">&#34;off&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn btn-secondary&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;option2&#34;</span><span class="p">&gt;</span>Radio<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  
+  <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn-check&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;options&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;option3&#34;</span> <span class="na">autocomplete</span><span class="o">=</span><span class="s">&#34;off&#34;</span> <span class="na">disabled</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn btn-secondary&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;option3&#34;</span><span class="p">&gt;</span>Disabled<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  
+  <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn-check&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;options&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;option4&#34;</span> <span class="na">autocomplete</span><span class="o">=</span><span class="s">&#34;off&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn btn-secondary&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;option4&#34;</span><span class="p">&gt;</span>Radio<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <h3 class="h5" id="outlined-styles">Outlined styles</h3>
+            <p class="fs-5">Different variants of <code>.btn</code>, such at the various outlined styles, are supported.</p>
+            <div class="bd-example">
+              <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+              <label class="btn btn-outline-primary" for="btn-check-outlined">Single toggle</label><br>
+              <input type="checkbox" class="btn-check" id="btn-check-2-outlined" checked autocomplete="off">
+              <label class="btn btn-outline-secondary" for="btn-check-2-outlined">Checked</label><br>
+              <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+              <label class="btn btn-outline-success" for="success-outlined">Checked success radio</label>
+              <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+              <label class="btn btn-outline-danger" for="danger-outlined">Danger radio</label>
+            </div>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn-check&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;btn-check-outlined&#34;</span> <span class="na">autocomplete</span><span class="o">=</span><span class="s">&#34;off&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn btn-outline-primary&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;btn-check-outlined&#34;</span><span class="p">&gt;</span>Single toggle<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+  
+  <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;checkbox&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn-check&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;btn-check-2-outlined&#34;</span> <span class="na">checked</span> <span class="na">autocomplete</span><span class="o">=</span><span class="s">&#34;off&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn btn-outline-secondary&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;btn-check-2-outlined&#34;</span><span class="p">&gt;</span>Checked<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+  
+  <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn-check&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;options-outlined&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;success-outlined&#34;</span> <span class="na">autocomplete</span><span class="o">=</span><span class="s">&#34;off&#34;</span> <span class="na">checked</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn btn-outline-success&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;success-outlined&#34;</span><span class="p">&gt;</span>Checked success radio<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+  
+  <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;radio&#34;</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn-check&#34;</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;options-outlined&#34;</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;danger-outlined&#34;</span> <span class="na">autocomplete</span><span class="o">=</span><span class="s">&#34;off&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;btn btn-outline-danger&#34;</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;danger-outlined&#34;</span><span class="p">&gt;</span>Danger radio<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span></code></pre>
+            </div>
+            <h2 class="h5" id="sass">Sass</h2>
+            <h3 class="h5" id="variables">Variables</h3>
+            <div class="highlight">
+              <pre class="chroma"><code class="language-scss" data-lang="scss"><span class="nv">$form-check-input-width</span><span class="o">:</span>                  <span class="mi">1</span><span class="kt">em</span><span class="p">;</span>
+  <span class="nv">$form-check-min-height</span><span class="o">:</span>                   <span class="nv">$font-size-base</span> <span class="o">*</span> <span class="nv">$line-height-base</span><span class="p">;</span>
+  <span class="nv">$form-check-padding-start</span><span class="o">:</span>                <span class="nv">$form-check-input-width</span> <span class="o">+</span> <span class="mf">.5</span><span class="kt">em</span><span class="p">;</span>
+  <span class="nv">$form-check-margin-bottom</span><span class="o">:</span>                <span class="mf">.125</span><span class="kt">rem</span><span class="p">;</span>
+  <span class="nv">$form-check-label-color</span><span class="o">:</span>                  <span class="n">null</span><span class="p">;</span>
+  <span class="nv">$form-check-label-cursor</span><span class="o">:</span>                 <span class="n">null</span><span class="p">;</span>
+  <span class="nv">$form-check-transition</span><span class="o">:</span>                   <span class="n">null</span><span class="p">;</span>
+  
+  <span class="nv">$form-check-input-active-filter</span><span class="o">:</span>          <span class="nf">brightness</span><span class="p">(</span><span class="mi">90</span><span class="kt">%</span><span class="p">);</span>
+  
+  <span class="nv">$form-check-input-bg</span><span class="o">:</span>                     <span class="nv">$input-bg</span><span class="p">;</span>
+  <span class="nv">$form-check-input-border</span><span class="o">:</span>                 <span class="mi">1</span><span class="kt">px</span> <span class="ni">solid</span> <span class="nf">rgba</span><span class="p">(</span><span class="nv">$black</span><span class="o">,</span> <span class="mf">.25</span><span class="p">);</span>
+  <span class="nv">$form-check-input-border-radius</span><span class="o">:</span>          <span class="mf">.25</span><span class="kt">em</span><span class="p">;</span>
+  <span class="nv">$form-check-radio-border-radius</span><span class="o">:</span>          <span class="mi">50</span><span class="kt">%</span><span class="p">;</span>
+  <span class="nv">$form-check-input-focus-border</span><span class="o">:</span>           <span class="nv">$input-focus-border-color</span><span class="p">;</span>
+  <span class="nv">$form-check-input-focus-box-shadow</span><span class="o">:</span>       <span class="nv">$input-btn-focus-box-shadow</span><span class="p">;</span>
+  
+  <span class="nv">$form-check-input-checked-color</span><span class="o">:</span>          <span class="nv">$component-active-color</span><span class="p">;</span>
+  <span class="nv">$form-check-input-checked-bg-color</span><span class="o">:</span>       <span class="nv">$component-active-bg</span><span class="p">;</span>
+  <span class="nv">$form-check-input-checked-border-color</span><span class="o">:</span>   <span class="nv">$form-check-input-checked-bg-color</span><span class="p">;</span>
+  <span class="nv">$form-check-input-checked-bg-image</span><span class="o">:</span>       <span class="sx">url(&#34;data:image/svg+xml,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;0 0 20 20&#39;&gt;&lt;path fill=&#39;none&#39; stroke=&#39;</span><span class="si">#{</span><span class="nv">$form-check-input-checked-color</span><span class="si">}</span><span class="sx">&#39; stroke-linecap=&#39;round&#39; stroke-linejoin=&#39;round&#39; stroke-width=&#39;3&#39; d=&#39;M6 10l3 3l6-6&#39;/&gt;&lt;/svg&gt;&#34;)</span><span class="p">;</span>
+  <span class="nv">$form-check-radio-checked-bg-image</span><span class="o">:</span>       <span class="sx">url(&#34;data:image/svg+xml,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;-4 -4 8 8&#39;&gt;&lt;circle r=&#39;2&#39; fill=&#39;</span><span class="si">#{</span><span class="nv">$form-check-input-checked-color</span><span class="si">}</span><span class="sx">&#39;/&gt;&lt;/svg&gt;&#34;)</span><span class="p">;</span>
+  
+  <span class="nv">$form-check-input-indeterminate-color</span><span class="o">:</span>          <span class="nv">$component-active-color</span><span class="p">;</span>
+  <span class="nv">$form-check-input-indeterminate-bg-color</span><span class="o">:</span>       <span class="nv">$component-active-bg</span><span class="p">;</span>
+  <span class="nv">$form-check-input-indeterminate-border-color</span><span class="o">:</span>   <span class="nv">$form-check-input-indeterminate-bg-color</span><span class="p">;</span>
+  <span class="nv">$form-check-input-indeterminate-bg-image</span><span class="o">:</span>       <span class="sx">url(&#34;data:image/svg+xml,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;0 0 20 20&#39;&gt;&lt;path fill=&#39;none&#39; stroke=&#39;</span><span class="si">#{</span><span class="nv">$form-check-input-indeterminate-color</span><span class="si">}</span><span class="sx">&#39; stroke-linecap=&#39;round&#39; stroke-linejoin=&#39;round&#39; stroke-width=&#39;3&#39; d=&#39;M6 10h8&#39;/&gt;&lt;/svg&gt;&#34;)</span><span class="p">;</span>
+  
+  <span class="nv">$form-check-input-disabled-opacity</span><span class="o">:</span>        <span class="mf">.5</span><span class="p">;</span>
+  <span class="nv">$form-check-label-disabled-opacity</span><span class="o">:</span>        <span class="nv">$form-check-input-disabled-opacity</span><span class="p">;</span>
+  <span class="nv">$form-check-btn-check-disabled-opacity</span><span class="o">:</span>    <span class="nv">$btn-disabled-opacity</span><span class="p">;</span>
+  
+  <span class="nv">$form-check-inline-margin-end</span><span class="o">:</span>    <span class="mi">1</span><span class="kt">rem</span><span class="p">;</span>
+  </code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Nayzak Global Compulsory Javascript -->
+<script src="../assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="../assets/plugins/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/plugins/aos/aos.min.js"></script>
+<script src="../assets/plugins/intl-tel-input/intlTelInput.min.js"></script>
+<script src="../assets/plugins/intl-tel-input/utils.js"></script>
+<script src="../assets/plugins/mapbox/mapbox.gl.js"></script>
+<script src="../assets/js/custom.js"></script>
+<!-- Nayzak Documentation Javascript Plugins -->
+<script src="assets/vendor/prism/prism.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>

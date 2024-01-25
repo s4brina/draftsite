@@ -1,0 +1,495 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Nayzak Documentation - Hover Master</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/favicon.ico" rel="shortcut icon">
+<!-- Nayzak Theme CSS -->
+<link href="../assets/plugins/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="../assets/css/styles.min.css" rel="stylesheet" type="text/css" media="all">
+<!-- Nayzak Documentation CSS -->
+<link href="assets/vendor/prism/prism.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/css/docs.css" rel="stylesheet" type="text/css" media="all">
+<link href="../assets/css/reset.min.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+
+<!-- Nayzak Documentation -->
+<div class="nayzak-documentation">
+
+  <!-- Nayzak Documentation Header -->
+  <header class="doc-header bg-white px-3 px-md-4 shadow-sm position-fixed">
+    <nav class="navbar navbar-expand-lg has-header-inner py-0">
+      <a class="navbar-brand" href="index.html">
+        <picture>
+          <source media="(min-width:767px)" srcset="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/dark-brand.svg">
+          <img src="https://nayzak.design/preview/nayzak-saas-templates/sharedassets/dark-toggle-brand.svg" alt="Nayzak">
+        </picture>
+      </a>
+      <div class="text-end d-block d-xl-none order-md-2 ms-auto">
+        <a href="javascript:void(0);" class="aside-toggle">
+          <img src="assets/img/hamburger@20.svg" class="menu-icon" alt="Menu">        
+          <img src="assets/img/close@20.svg" class="menu-close" alt="Menu Close">
+        </a>
+      </div>
+      <ul class="nav nav-classic nav-sm border-0 nav-docs-space ms-auto">
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3 active" href="index.html">
+            <span class="d-none d-sm-block">Documentation</span>
+            <span class="d-sm-none">Docs</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3" href="snippets/index.html">Snippets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3" target="_blank" href="../landing1.html">Templates</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Container Fluid, Main Docs -->
+  <div class="container-fluid main-docs">
+    <div class="row justify-content-lg-end">
+
+      <!-- Nayzak Documentation Aside -->
+      <nav class="col-lg-3 col-xl-2 navbar-expand-lg ms-2 px-0 nayzak-sidebar">
+        <div class="collapse navbar-collapse show" id="sidebar-nav">
+          <div id="sidebarNav" class="sidebar-scrollbar sidebar-sticky ps-2 ps-md-0 pe-2 accordion" data-simplebar>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#getting-started-collapse" role="button" aria-expanded="false">Getting started</a>
+            <ul class="collapse mb-0" id="getting-started-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="index.html">Introduction</a></li>
+              <li><a href="contents.html">Contents</a></li>
+              <li><a href="browsers-devices.html">Browsers &amp; devices</a></li>
+              <li><a href="javascript.html">JavaScript</a></li>
+              <li><a href="build-tools.html">Build tools</a></li>
+              <li><a href="webpack.html">Webpack</a></li>
+              <li><a href="accessibility.html">Accessibility</a></li>
+              <li><a href="rfs.html">RFS</a></li>
+              <li><a href="rtl.html">RTL</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#customize-collapse" role="button" aria-expanded="false">Customize</a>
+            <ul class="collapse mb-0" id="customize-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="options.html">Options</a></li>
+              <li><a href="colors.html">Color</a></li>
+              <li><a href="customize-components.html">Components</a></li>
+              <li><a href="css-variables.html">CSS variables</a></li>
+              <li><a href="optimize.html">Optimize</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#layout-collapse" role="button" aria-expanded="true">Layout</a>
+            <ul class="collapse mb-0" id="layout-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="breakpoints.html">Breakpoints</a></li>
+              <li><a href="container.html">Container</a></li>
+              <li><a href="grid.html">Grid</a></li>
+              <li><a href="columns.html">Columns</a></li>
+              <li><a href="gutters.html">Gutters</a></li>
+              <li><a href="utilities.html">Utilities</a></li>
+              <li><a href="z-index.html">Z-index</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#content-collapse" role="button" aria-expanded="false">Content</a>
+            <ul class="collapse mb-0" id="content-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="images.html">Images</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="figures.html">Figures</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#forms-collapse" role="button" aria-expanded="false">Forms</a>
+            <ul class="collapse mb-0" id="forms-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="forms-overview.html">Form Overview</a></li>
+              <li><a href="form-control.html">Form control</a></li>
+              <li><a href="select.html">Select</a></li>
+              <li><a href="checks-radios.html">Checks &amp; radios</a></li>
+              <li><a href="range.html">Range</a></li>
+              <li><a href="input-group.html">Input group</a></li>
+              <li><a href="floating-labels.html">Floating labels</a></li>
+              <li><a href="form-layout.html">Layout</a></li>
+              <li><a href="validation.html">Validation</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#components-collapse" role="button" aria-expanded="false">Components</a>
+            <ul class="collapse mb-0" id="components-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="accordion.html">Accordion</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="breadcrumb.html">Breadcrumb</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="button-group.html">Button Group</a></li>
+              <li><a href="cards.html">Cards</a></li>
+              <li><a href="carousel.html">Carousel</a></li>
+              <li><a href="close-button.html">Close Button</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="dropdowns.html">Dropdowns</a></li>
+              <li><a href="list-group.html">List group</a></li>
+              <li><a href="modal.html">Modal</a></li>
+              <li><a href="navs-tabs.html">Navs &amp; Tabs</a></li>
+              <li><a href="navs.html">Navs</a></li>
+              <li><a href="offcanvas.html">Offcanvas</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="popovers.html">Popovers</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="scrollspy.html">Scrollspy</a></li>
+              <li><a href="spinners.html">Spinners</a></li>
+              <li><a href="toasts.html">Toasts</a></li>
+              <li><a href="tooltips.html">Tooltips</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#helpers-collapse" role="button" aria-expanded="false">Helpers</a>
+            <ul class="collapse mb-0" id="helpers-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="clearfix.html">Clearfix</a></li>
+              <li><a href="colored-links.html">Colored links</a></li>
+              <li><a href="ratio.html">Ratio</a></li>
+              <li><a href="position.html">Position</a></li>
+              <li><a href="visually-hidden.html">Visually Hidden</a></li>
+              <li><a href="stretched-link.html">Stretched link</a></li>
+              <li><a href="text-truncation.html">Text truncation</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#utilities-collapse" role="button" aria-expanded="false">Utilities</a>
+            <ul class="collapse mb-0" id="utilities-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="api.html">API</a></li>
+              <li><a href="background.html">Background</a></li>
+              <li><a href="borders.html">Borders</a></li>
+              <li><a href="display.html">Display</a></li>
+              <li><a href="flex.html">Flex</a></li>
+              <li><a href="float.html">Float</a></li>
+              <li><a href="interactions.html">Interactions</a></li>
+              <li><a href="overflow.html">Overflow</a></li>
+              <li><a href="utilitie-position.html">Position</a></li>
+              <li><a href="shadows.html">Shadows</a></li>
+              <li><a href="sizing.html">Sizing</a></li>
+              <li><a href="spacings.html">Spacings</a></li>
+              <li><a href="text.html">Text</a></li>
+              <li><a href="vertical-align.html">Vertical align</a></li>
+              <li><a href="visibility.html">Visibility</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#extend-collapse" role="button" aria-expanded="false">Extend</a>
+            <ul class="collapse mb-0" id="extend-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="approach.html">Approach</a></li>
+              <li><a href="bootstrap-icons.html">Bootstrap Icons</a></li>
+              <li><a href="tabler-icons.html">Tabler Icons</a></li>
+            </ul>
+            <a class="sidebar-heading mb-0" data-bs-toggle="collapse" href="#plugins-collapse" role="button" aria-expanded="true">Plugins</a>
+            <ul class="collapse show mb-0" id="plugins-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="swiper.html">Swiper</a></li>
+              <li><a href="aos.html">AOS</a></li>
+              <li><a href="hover-master.html" class="active">Hover Master</a></li>
+              <li><a href="mapbox.html">Mapbox</a></li>
+              <li><a href="intltelinput.html">intlTelInput</a></li>
+            </ul>
+            <a class="collapsed sidebar-heading mb-0" data-bs-toggle="collapse" href="#more-collapse" role="button" aria-expanded="false">More</a>
+            <ul class="collapse mb-0" id="more-collapse" data-bs-parent="#sidebarNav">
+              <li><a href="credits.html">Credits</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Nayzak Documentation Content -->
+      <div class="col-xl-10">
+        <div class="p-0 p-md-4">
+          <div class="content-divider">
+            <h1 class="bd-title h3">Hover Master</h1>
+            <p class="fs-5">A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on. Easily apply to your own elements, modify or just use for inspiration. Available in CSS, Sass, and LESS.</p>
+            <a class="btn-link link-dark link-sm" target="_blank" href="https://ianlunn.github.io/Hover/">Documentation for Hover</a>
+          </div>
+          <div class="content-divider">
+            <h5 class="mb-3">How to use?</h5>
+            <p class="fs-5">Copy-paste the following <code>&lt;link&gt;</code> near the end of your pages under <em><u>Nayzak Plugins SCSS</u></em> to enable it.</p>
+            <div class="highlight">
+              <pre class="rounded">
+                <code class="language-html" data-lang="html">
+                  &lt;link href="assets/plugins/hover-master/sass/hover.scss" rel="stylesheet" type="text/css" media="all"&gt;
+                </code>
+              </pre>
+            </div>
+          </div>
+          <h2 class="h5">2D Transitions</h2>
+          <div class="bd-example">
+            <div class="d-inline-flex flex-wrap gap-3 gap-lg-4">
+              <a href="#0" class="btn btn-dark hvr-grow">Grow</a>
+              <a href="#0" class="btn btn-dark hvr-shrink">Shrink</a>
+              <a href="#0" class="btn btn-dark hvr-pulse">Pulse</a>
+              <a href="#0" class="btn btn-dark hvr-pulse-grow">Pulse Grow</a>
+              <a href="#0" class="btn btn-dark hvr-pulse-shrink">Pulse shrink</a>
+              <a href="#0" class="btn btn-dark hvr-push">Push</a>                    
+              <a href="#0" class="btn btn-dark hvr-pop">Pop</a>
+              <a href="#0" class="btn btn-dark hvr-bounce-in">Bounce In</a>
+              <a href="#0" class="btn btn-dark hvr-bounce-out">Bounce Out</a>
+              <a href="#0" class="btn btn-dark hvr-rotate">Rotate</a>
+              <a href="#0" class="btn btn-dark hvr-grow-rotate">Grow Rotate</a>
+              <a href="#0" class="btn btn-dark hvr-float">Float</a>
+              <a href="#0" class="btn btn-dark hvr-sink">Sink</a>
+              <a href="#0" class="btn btn-dark hvr-bob">Bob</a>
+              <a href="#0" class="btn btn-dark hvr-hang">Hang</a>
+              <a href="#0" class="btn btn-dark hvr-skew">Skew</a>
+              <a href="#0" class="btn btn-dark hvr-skew-forward">Skew Forward</a>
+              <a href="#0" class="btn btn-dark hvr-skew-backward">Skew Backward</a>
+              <a href="#0" class="btn btn-dark hvr-wobble-horizontal">Wobble Horizontal</a>
+              <a href="#0" class="btn btn-dark hvr-wobble-vertical">Wobble Vertical</a>
+              <a href="#0" class="btn btn-dark hvr-wobble-to-bottom-right">Wobble To Bottom Right</a>
+              <a href="#0" class="btn btn-dark hvr-wobble-to-top-right">Wobble To Top Right</a>
+              <a href="#0" class="btn btn-dark hvr-wobble-top">Wobble Top</a>
+              <a href="#0" class="btn btn-dark hvr-wobble-bottom">Wobble Bottom</a>
+              <a href="#0" class="btn btn-dark hvr-wobble-skew">Wobble Skew</a>
+              <a href="#0" class="btn btn-dark hvr-buzz">Buzz</a>
+              <a href="#0" class="btn btn-dark hvr-buzz-out">Buzz Out</a>
+              <a href="#0" class="btn btn-dark hvr-forward">Forward</a>
+              <a href="#0" class="btn btn-dark hvr-backward">Backward</a>
+            </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;a href="#0" class="btn btn-dark hvr-grow"&gt;Grow&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-shrink"&gt;Shrink&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-pulse"&gt;Pulse&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-pulse-grow"&gt;Pulse Grow&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-pulse-shrink"&gt;Pulse shrink&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-push"&gt;Push&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-pop"&gt;Pop&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-bounce-in"&gt;Bounce In&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-bounce-out"&gt;Bounce Out&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-rotate"&gt;Rotate&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-grow-rotate"&gt;Grow Rotate&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-float"&gt;Float&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-sink"&gt;Sink&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-bob"&gt;Bob&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-hang"&gt;Hang&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-skew"&gt;Skew&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-skew-forward"&gt;Skew Forward&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-skew-backward"&gt;Skew Backward&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-wobble-horizontal"&gt;Wobble Horizontal&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-wobble-vertical"&gt;Wobble Vertical&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-wobble-to-bottom-right"&gt;Wobble To Bottom Right&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-wobble-to-top-right"&gt;Wobble To Top Right&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-wobble-top"&gt;Wobble Top&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-wobble-bottom"&gt;Wobble Bottom&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-wobble-skew"&gt;Wobble Skew&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-buzz"&gt;Buzz&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-buzz-out"&gt;Buzz Out&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-forward"&gt;Forward&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-backward"&gt;Backward&lt;/a&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5">Background Transitions</h2>
+          <div class="bd-example">
+            <div class="d-inline-flex flex-wrap gap-3 gap-lg-4">
+              <a href="#0" class="btn btn-dark hvr-fade">Fade</a>
+              <a href="#0" class="btn btn-dark hvr-back-pulse">Back Pulse</a>
+              <a href="#0" class="btn btn-dark hvr-sweep-to-right">Sweep To Right</a>
+              <a href="#0" class="btn btn-dark hvr-sweep-to-left">Sweep To Left</a>
+              <a href="#0" class="btn btn-dark hvr-sweep-to-bottom">Sweep To Bottom</a>
+              <a href="#0" class="btn btn-dark hvr-sweep-to-top">Sweep To Top</a>
+              <a href="#0" class="btn btn-dark hvr-bounce-to-right">hvr-bounce-to-right</a>
+              <a href="#0" class="btn btn-dark hvr-bounce-to-left">Bounce To Left</a>
+              <a href="#0" class="btn btn-dark hvr-bounce-to-bottom">Bounce To Bottom</a>
+              <a href="#0" class="btn btn-dark hvr-bounce-to-top">Bounce To Top</a>
+              <a href="#0" class="btn btn-dark hvr-radial-out">Radial Out</a>
+              <a href="#0" class="btn btn-dark hvr-radial-in">Radial In</a>
+              <a href="#0" class="btn btn-dark hvr-rectangle-in">Rectangle In</a>
+              <a href="#0" class="btn btn-dark hvr-rectangle-out">Rectangle Out</a>
+              <a href="#0" class="btn btn-dark hvr-shutter-in-horizontal">Shutter In Horizontal</a>
+              <a href="#0" class="btn btn-dark hvr-shutter-out-horizontal">Shutter Out Horizontal</a>
+              <a href="#0" class="btn btn-dark hvr-shutter-in-vertical">Shutter In Vertical</a>
+              <a href="#0" class="btn btn-dark hvr-shutter-out-vertical">Shutter Out Vertical</a>
+            </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;a href="#0" class="btn btn-dark hvr-fade"&gt;Fade&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-back-pulse"&gt;Back Pulse&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-sweep-to-right"&gt;Sweep To Right&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-sweep-to-left"&gt;Sweep To Left&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-sweep-to-bottom"&gt;Sweep To Bottom&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-sweep-to-top"&gt;Sweep To Top&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-bounce-to-right"&gt;hvr-bounce-to-right&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-bounce-to-left"&gt;Bounce To Left&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-bounce-to-bottom"&gt;Bounce To Bottom&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-bounce-to-top"&gt;Bounce To Top&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-radial-out"&gt;Radial Out&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-radial-in"&gt;Radial In&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-rectangle-in"&gt;Rectangle In&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-rectangle-out"&gt;Rectangle Out&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-shutter-in-horizontal"&gt;Shutter In Horizontal&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-shutter-out-horizontal"&gt;Shutter Out Horizontal&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-shutter-in-vertical"&gt;Shutter In Vertical&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-shutter-out-vertical"&gt;Shutter Out Vertical&lt;/a&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5">Icons Animation</h2>
+          <div class="bd-example">
+            <div class="d-inline-flex flex-wrap gap-3 gap-lg-4">
+              <a href="#0" class="btn btn-dark hvr-icon-back"><i class="ti ti-arrow-narrow-left hvr-icon"></i> Icon Back</a>
+              <a href="#0" class="btn btn-dark hvr-icon-forward">Icon Forward <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-down">Icon Down <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-up">Icon Up <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-spin">Icon Spin <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-drop">Icon Drop <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-fade">Icon Fade <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-float-away">Icon Float Away <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-sink-away">Icon Sink Away <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-grow">Icon Grow <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-shrink">Icon Shrink <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-pulse">Icon Pulse <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-pulse-grow">Icon Pulse Grow <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-pulse-shrink">Icon Pulse Shrink <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-push">Icon Push <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-pop">Icon Pop <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-bounce">Icon Bounce <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-rotate">Icon Rotate <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-grow-rotate">Icon Grow Rotate <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-float">Icon Float <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-sink">Icon Sink <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-bob">Icon Bob <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-hang">Icon Hang <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-wobble-horizontal">Icon Wobble Horizontal <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-wobble-vertical">Icon Wobble Vertical <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-buzz">Icon Buzz <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+              <a href="#0" class="btn btn-dark hvr-icon-buzz-out">Icon Buzz Out <i class="ti ti-arrow-narrow-right hvr-icon"></i></a>
+            </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;a href="#0" class="btn btn-dark hvr-icon-back"&gt;&lt;i class="ti ti-arrow-narrow-left hvr-icon"&gt;&lt;/i&gt; Icon Back&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-forward"&gt;Icon Forward &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-down"&gt;Icon Down &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-up"&gt;Icon Up &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-spin"&gt;Icon Spin &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-drop"&gt;Icon Drop &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-fade"&gt;Icon Fade &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-float-away"&gt;Icon Float Away &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-sink-away"&gt;Icon Sink Away &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-grow"&gt;Icon Grow &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-shrink"&gt;Icon Shrink &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-pulse"&gt;Icon Pulse &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-pulse-grow"&gt;Icon Pulse Grow &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-pulse-shrink"&gt;Icon Pulse Shrink &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-push"&gt;Icon Push &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-pop"&gt;Icon Pop &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-bounce"&gt;Icon Bounce &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-rotate"&gt;Icon Rotate &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-grow-rotate"&gt;Icon Grow Rotate &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-float"&gt;Icon Float &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-sink"&gt;Icon Sink &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-bob"&gt;Icon Bob &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-hang"&gt;Icon Hang &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-wobble-horizontal"&gt;Icon Wobble Horizontal &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-wobble-vertical"&gt;Icon Wobble Vertical &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-buzz"&gt;Icon Buzz &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-icon-buzz-out"&gt;Icon Buzz Out &lt;i class="ti ti-arrow-narrow-right hvr-icon"&gt;&lt;/i&gt;&lt;/a&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5">Shadow and Glow Transitions</h2>
+          <div class="bd-example">
+            <div class="d-inline-flex flex-wrap gap-3 gap-lg-4">
+              <a href="#0" class="btn btn-dark hvr-border-fade">Border Fade</a>
+              <a href="#0" class="btn btn-dark hvr-hollow">Hollow</a>
+              <a href="#0" class="btn btn-dark hvr-trim">Trim</a>
+              <a href="#0" class="btn btn-dark hvr-ripple-out">Ripple Out</a>
+              <a href="#0" class="btn btn-dark hvr-ripple-in">Ripple In</a>
+              <a href="#0" class="btn btn-dark hvr-outline-out">Outline Out</a>
+              <a href="#0" class="btn btn-dark hvr-outline-in">Outline In</a>
+              <a href="#0" class="btn btn-dark hvr-round-corners">Round Corners</a>
+              <a href="#0" class="btn btn-dark hvr-underline-from-left">Underline From Left</a>
+              <a href="#0" class="btn btn-dark hvr-underline-from-center">Underline From Center</a>
+              <a href="#0" class="btn btn-dark hvr-underline-from-right">Underline From Right</a>
+              <a href="#0" class="btn btn-dark hvr-reveal">Reveal</a>
+              <a href="#0" class="btn btn-dark hvr-underline-reveal">Underline Reveal</a>
+              <a href="#0" class="btn btn-dark hvr-overline-reveal">Overline Reveal</a>
+              <a href="#0" class="btn btn-dark hvr-overline-from-left">Overline From Left</a>
+              <a href="#0" class="btn btn-dark hvr-overline-from-center">Overline From Center</a>
+              <a href="#0" class="btn btn-dark hvr-overline-from-right">Overline From Right</a>
+            </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;a href="#0" class="btn btn-dark hvr-border-fade"&gt;Border Fade&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-hollow"&gt;Hollow&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-trim"&gt;Trim&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-ripple-out"&gt;Ripple Out&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-ripple-in"&gt;Ripple In&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-outline-out"&gt;Outline Out&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-outline-in"&gt;Outline In&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-round-corners"&gt;Round Corners&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-underline-from-left"&gt;Underline From Left&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-underline-from-center"&gt;Underline From Center&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-underline-from-right"&gt;Underline From Right&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-reveal"&gt;Reveal&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-underline-reveal"&gt;Underline Reveal&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-overline-reveal"&gt;Overline Reveal&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-overline-from-left"&gt;Overline From Left&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-overline-from-center"&gt;Overline From Center&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-overline-from-right"&gt;Overline From Right&lt;/a&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5">Border Transitions</h2>
+          <div class="bd-example">
+            <div class="d-inline-flex flex-wrap gap-3 gap-lg-4">
+              <a href="#0" class="btn btn-dark hvr-shadow">Shadow</a>
+              <a href="#0" class="btn btn-dark hvr-grow-shadow">Grow Shadow</a>
+              <a href="#0" class="btn btn-dark">Float Shadow</a>
+              <a href="#0" class="btn btn-dark hvr-glow">Glow</a>
+              <a href="#0" class="btn btn-dark hvr-shadow-radial">Shadow Radial</a>
+              <a href="#0" class="btn btn-dark hvr-box-shadow-outset">Box Shadow Outset</a>
+              <a href="#0" class="btn btn-dark hvr-box-shadow-inset">Box Shadow Inset</a>
+            </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;a href="#0" class="btn btn-dark hvr-shadow"&gt;Shadow&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-grow-shadow"&gt;Grow Shadow&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark"&gt;Float Shadow&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-glow"&gt;Glow&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-shadow-radial"&gt;Shadow Radial&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-box-shadow-outset"&gt;Box Shadow Outset&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-box-shadow-inset"&gt;Box Shadow Inset&lt;/a&gt;
+              </code>
+            </pre>
+          </div>
+          <h2 class="h5">Curls</h2>
+          <div class="bd-example">
+            <div class="d-inline-flex flex-wrap gap-3 gap-lg-4">
+              <a href="#0" class="btn btn-dark hvr-curl-top-left">Curl Top Left</a>
+              <a href="#0" class="btn btn-dark hvr-curl-top-right">Curl Top Right</a>
+              <a href="#0" class="btn btn-dark hvr-curl-bottom-right">Curl Bottom Right</a>
+              <a href="#0" class="btn btn-dark hvr-curl-bottom-left">Curl Bottom Left</a>
+            </div>
+          </div>
+          <div class="highlight">
+            <pre class="rounded">
+              <code class="language-markup" data-lang="html">
+                &lt;a href="#0" class="btn btn-dark hvr-curl-top-left"&gt;Curl Top Left&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-curl-top-right"&gt;Curl Top Right&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-curl-bottom-right"&gt;Curl Bottom Right&lt;/a&gt;
+                &lt;a href="#0" class="btn btn-dark hvr-curl-bottom-left"&gt;Curl Bottom Left&lt;/a&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Nayzak Global Compulsory Javascript -->
+<script src="../assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="../assets/plugins/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/plugins/aos/aos.min.js"></script>
+<script src="../assets/plugins/intl-tel-input/intlTelInput.min.js"></script>
+<script src="../assets/plugins/intl-tel-input/utils.js"></script>
+<script src="../assets/plugins/mapbox/mapbox.gl.js"></script>
+<script src="../assets/js/custom.js"></script>
+<!-- Nayzak Documentation Javascript Plugins -->
+<script src="assets/vendor/prism/prism.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>
